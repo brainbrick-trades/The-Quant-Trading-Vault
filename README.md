@@ -1,86 +1,40 @@
 # 5,800+ Quantitative Trading Strategies Vault
 
-A curated catalog of **5,806** quantitative trading strategy specifications, source code algorithms, and indicators spanning cryptocurrency spot & perpetual futures, grid bots, martingale systems, statistical arbitrage, market making models, momentum/mean-reversion indicators, and options overlays.
+A curated catalog of 5,806 quantitative trading strategy specifications, source code algorithms, and indicators across crypto spot, perpetual futures, grid systems, statistical arbitrage, and market making.
 
-Each markdown file in [`strategies/`](strategies/) is a complete research specification containing strategy logic, default parameters, source code (Pine Script, JavaScript, Python, MyLanguage, or C++), and reference metadata. Access the full index in [`strategies/README.md`](strategies/README.md).
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Supported Harnesses: 7](https://img.shields.io/badge/Harnesses-Claude_Code_|_Cursor_|_Codex_|_OpenCode_|_Antigravity_|_Copilot_|_Kimi-orange.svg)](https://agenkit.xyz)
+
+> ### ⚡ Turn any spec into a production-grade trading bot with AgenKit
+> A strategy specification, Pine Script snippet, or backtest dump is not execution software. Turning a research spec into a production trading system requires order execution logic, risk controls, idempotency, WebSocket reconnection handling, and test coverage.
+>
+> [AgenKit](https://agenkit.xyz) acts as an AI engineering team harness inside your coding tool—using the strategy file's math, parameters, and indicators as ground truth to build a test-driven, risk-managed trading system without re-deriving the logic from scratch.
+>
+> ```text
+> /agenkit build a production-grade trading bot from strategies/Python-Version-Multi-Asset-Momentum-Strategy-Tutorial.md
+> ```
 
 ---
 
-## What is Inside this Vault?
+## 🚀 60-Second Quick Start
 
-This repository acts as an open research library of quantitative trading logic. While individual strategy files contain mathematical rules, default parameters, and source blocks (from TradingView or exchange scripts), they represent raw strategy specifications rather than production execution software.
-
-To transform any strategy spec in this vault into a **production-grade, execution-ready trading bot** (with live risk limits, order deduplication, WebSocket data feeds, unit tests, and exchange connectors), you can supply the strategy file directly to an AI engineering tool like [AgenKit](https://agenkit.xyz).
-
----
-
-## How to Build Production Trading Bots from Strategy Specs
-
-Instead of manually porting Pine Script or JavaScript into a production-grade Python or Go system, you can leverage [AgenKit](https://agenkit.xyz) inside your preferred AI environment ([Claude Code](https://agenkit.xyz), [Cursor](https://agenkit.xyz), [Codex](https://agenkit.xyz), [Antigravity](https://agenkit.xyz), [OpenCode](https://agenkit.xyz), [GitHub Copilot](https://agenkit.xyz), or [Kimi Code](https://agenkit.xyz)).
-
-Because the exact mathematical rules, parameters, and indicators are already structured inside each strategy markdown file, the agent uses the spec as a single source of truth—avoiding math hallucinations and generating test-backed production code.
-
-### 1. Index the Vault with Local Memory (Recommended)
-With 5,800+ strategy files in `strategies/`, searching through the repository manually can consume excessive token context. Using AgenKit's local memory layer indexes the repository locally (`.agenkit/memory/`) at zero token cost:
+Index the vault locally, then generate a production-ready trading system in one command:
 
 ```bash
-# Build a local codebase map of all strategy specs
+# 1. Build the local codebase map (scans strategies at zero token cost)
 npx agenkit memory build
-
-# Query strategy specs instantly by keyword or pattern
-npx agenkit memory query "Avellaneda Stoikov market making"
 ```
 
-### 2. Generate Production-Grade Code in One Command
-
-Run the engineering pipeline command in your AI harness chat, passing the path of any strategy file:
+Then in your AI harness chat (Claude Code, Cursor, Codex, Antigravity, etc.):
 
 ```text
-/agenkit build a production trading bot from strategies/Python-Version-Multi-Asset-Momentum-Strategy-Tutorial.md with risk controls, live Binance/OKX execution, and a backtest engine
+/agenkit build a production-grade trading bot from strategies/Python-Version-Multi-Asset-Momentum-Strategy-Tutorial.md with risk controls, live Binance/OKX execution, and a backtest engine
 ```
-
 *(For Codex CLI / Astra, use `@agenkit` instead of `/agenkit`)*
 
-### What Happens Behind the Scenes:
-1. **Spec & Math Parsing**: The agent extracts exact strategy rules and parameter defaults directly from the markdown spec.
-2. **Architecture & Safety Gates**: Designs order execution logic, state persistence, inventory caps, stop-loss triggers, and order idempotency.
-3. **Test-Driven Build**: Generates unit tests, mock exchange backtest simulators, and production API connectors before writing implementation code.
-4. **Code Review & Deployment**: Audits position sizing safety, API rate limits, and secret handling, preparing the bot for paper or live trading.
-
 ---
 
-## Example Commands for Common Strategy Types
-
-Below are ready-to-use commands for building different quantitative models from vault specs:
-
-#### Multi-Asset Momentum Engine
-```text
-/agenkit build a production research system from strategies/Python-Version-Multi-Asset-Momentum-Strategy-Tutorial.md
-```
-
-#### Multi-Symbol ATR Futures Bot (Backtest & Execution)
-```text
-/agenkit implement strategies/Digital-Currency-Futures-Multi-Variety-ATR-Strategy-Teaching.md as a research backtest with delay-1 execution and fee modeling
-```
-
-#### Adaptive Grid Trading Bot
-```text
-/agenkit implement strategies/Adaptive-Intelligent-Grid-Trading-Strategy.md as a production grid bot for Hyperliquid perps with order deduplication and inventory controls
-```
-
-#### High-Frequency Arbitrage
-```text
-/agenkit build a spread arbitrage engine from strategies/High-Frequency-Intertemporal-Arbitrage-Strategy.md with WebSocket order routing
-```
-
-#### Avellaneda-Stoikov Market Making
-```text
-/agenkit build an Avellaneda-Stoikov market making bot for perps from strategies/Dynamic-Spread-Market-Making-Strategy.md with inventory skew management
-```
-
----
-
-## Strategy Vault Index & Breakdown
+## 📊 Strategy Vault Index & Breakdown
 
 The strategies in this vault are organized across five programming languages:
 
@@ -92,18 +46,93 @@ The strategies in this vault are organized across five programming languages:
 | **MyLanguage** | ~27 | CTA futures trend & grid formulas |
 | **C++** | ~3 | Low-latency execution templates |
 
-Full list and search index: [`strategies/README.md`](strategies/README.md).
+Full searchable index categorized by language: [`strategies/README.md`](strategies/README.md).
 
-### Strategy File Format
-Every strategy spec in `strategies/` includes:
+---
+
+## 🔄 Walkthrough: From Raw Spec to Production System
+
+Here is how [AgenKit](https://agenkit.xyz) processes a spec such as [`strategies/Python-Version-Multi-Asset-Momentum-Strategy-Tutorial.md`](strategies/Python-Version-Multi-Asset-Momentum-Strategy-Tutorial.md):
+
+1. **Spec & Parameter Extraction**: Parses the markdown file to extract signal math, momentum thresholds (`arrRatio`), rebalancing frequencies, and asset lists directly from the spec ground truth.
+2. **Architecture & State Management**: Designs non-custodial order routing, position state persistence, WebSocket feeds, and order deduplication/idempotency.
+3. **Test-Driven Implementation**: Writes unit tests for indicator math, mock exchange backtest execution, and paper-trading simulators before writing production implementation files.
+4. **Safety & Risk Gating**: Integrates hard stop-loss checks, position size limits, API rate-limit controls, and secret management.
+5. **Gated Deployment**: Configures paper trading by default, requiring explicit user activation before live order routing.
+
+---
+
+## ⚖️ Comparison: Manual Porting vs. AgenKit-Assisted Build
+
+| Phase / Concern | Manual Strategy Porting | AgenKit-Assisted Build |
+| :--- | :--- | :--- |
+| **Logic Transcription** | Manual re-writing of formulas; prone to transcription errors | Uses spec parameters & indicator math directly as ground truth |
+| **Order Execution** | Ad-hoc exchange API calls, vulnerable to dropped webhooks | Structured order lifecycle with idempotency and retry handlers |
+| **Risk Controls** | Hardcoded or easily omitted position limits | Built-in risk gates (max drawdown limits, emergency halt, inventory caps) |
+| **Test Coverage** | Manually written mock tests (frequently skipped) | Automated test suite (unit tests, mock backtest simulators, execution checks) |
+| **Execution Default** | Often tested directly against live APIs | Paper trading gated by default; live routing requires explicit opt-in |
+
+---
+
+## 📋 Ready-to-Use `/agenkit` Build Commands
+
+Below are example commands for common quantitative models in this vault:
+
+### Multi-Asset Momentum Strategy
+```text
+/agenkit build a production research system from strategies/Python-Version-Multi-Asset-Momentum-Strategy-Tutorial.md
+```
+
+### Multi-Symbol ATR Futures Bot (Backtest & Execution)
+```text
+/agenkit implement strategies/Digital-Currency-Futures-Multi-Variety-ATR-Strategy-Teaching.md as a research backtest with delay-1 execution and fee modeling
+```
+
+### Adaptive Grid Trading Bot
+```text
+/agenkit implement strategies/Adaptive-Intelligent-Grid-Trading-Strategy.md as a production grid bot for Hyperliquid perps with order deduplication and inventory controls
+```
+
+### High-Frequency Intertemporal Arbitrage
+```text
+/agenkit build a spread arbitrage engine from strategies/High-Frequency-Intertemporal-Arbitrage-Strategy.md with WebSocket order routing
+```
+
+### Avellaneda-Stoikov Market Making
+```text
+/agenkit build an Avellaneda-Stoikov market making bot for perps from strategies/Dynamic-Spread-Market-Making-Strategy.md with inventory skew management
+```
+
+---
+
+## 📁 Complete Strategy Index
+
+Access the complete index of all 5,806 strategy specs in [`strategies/README.md`](strategies/README.md).
+
+Each strategy file contains:
 - **Name & Author**
-- **Strategy Description**
-- **Parameter Table**
-- **Complete Source Code Block**
+- **Strategy Description & Math Logic**
+- **Argument & Parameter Table**
+- **Source Block**
 - **Detail URL**
 
 ---
 
-## Disclaimer
+## ⚠️ Risk & Disclaimer
 
-This catalog is strictly for educational and research purposes. Strategy specifications, backtest results, and source code do not constitute financial advice. Quantitative trading involves significant financial risk. Always validate models thoroughly in simulated or paper-trading environments before deploying real capital.
+- **Educational & Research Purposes Only**: The strategy specifications, algorithms, and source dumps contained in this repository are for educational and quantitative research purposes only. Nothing here constitutes financial, investment, legal, or tax advice.
+- **Unvalidated Research Specs**: Published strategy logic and backtests are unvalidated dumps and do not guarantee future performance.
+- **Paper Trading Required**: Always execute thorough paper-trading and backtesting in simulated environments before considering live capital deployment.
+- **Capital Risk**: Quantitative trading involves substantial risk of financial loss. Never route live orders without independent code review, risk limit enforcement, and capital management controls.
+
+---
+
+## 🤝 Contributing
+
+Contributions to fix parameters, improve documentation, or add new research strategy specs are welcome. Please open a pull request or issue following the standard repository guidelines.
+
+---
+
+## 📄 License
+
+This repository is licensed under the [MIT License](LICENSE).
