@@ -1,0 +1,196 @@
+
+> Name
+
+Momentum-Oscillator-Bollinger-Band-RSI-Trading-Strategy
+
+> Author
+
+ChaoZhang
+
+> Strategy Description
+
+[Simplified Chinese]
+
+## Overview
+
+This strategy predicts price volatility and optimal entry points by using a combination of Bollinger Bands and the Relative Strength Index (RSI). The strategy logic is very straightforward. We focus on when the closing price touches the lower Bollinger Bands. There will be two situations after that. The price will either rebound from the lower Bollinger Bands or continue to fall. To confirm price action, we use a second indicator, RSI, to further study price trends. For example, if the price touches the lower Bollinger Band but the RSI value does not enter the oversold zone, we can judge that the price will continue to fall. If the RSI value enters the oversold zone, we can use this price area as our entry point. 
+
+We need to set stop-losses to avoid large capital losses if RSI values stay in the oversold zone for too long.
+
+The best take-profit area is when the price rebounds above the Bollinger Middle/Upper Track or the RSI reaches the overbought zone, whichever comes first.
+
+Long Entry: 
+
+RSI < 30 and the closing price < Bollinger Lower Track
+
+Long Exit:
+
+RSI > 70
+
+## Strategy Principle
+
+This strategy first calculates the RSI indicator and determines whether it is overbought or oversold by setting upper and lower bounds. Then calculate the middle track, upper track and lower track of Bollinger Bands. When the closing price touches the lower Bollinger Band and the RSI is below 30, go long; when the RSI is above 70, close the position.
+
+When entering a long position, set a take-profit and stop-loss point. The take-profit point is set to the entry price*(1+fixed ratio), and the stop-loss point is set to the entry price*(1-fixed ratio)).
+
+In this way, we buy when the RSI is low near the lower track of the Bollinger Bands, sell when the RSI is high, and use reversal trading to make profits. At the same time, set a take-profit and stop-loss to control risks.
+
+## Advantage Analysis
+
+- Use Bollinger Bands to determine price reversal points to increase accuracy
+- RSIIndicator filters false breakouts to ensure entry reliability
+- Setting take-profit and stop-loss can effectively control the risk of a single trade
+- Backtest data is sufficient, parameters are well-tuned, achieving stable profits
+
+## Risk Analysis
+
+- Bollinger Bands cannot fully predict price turning points; there is a certain failure rate
+- RSIThere is also a probability that the indicator issues false signals
+- Stop-loss too close to hold a position, too far increases risk
+
+Risk can be reduced by adjusting Bollinger Band parameters, using other indicators in combination, and appropriately widening the stop-loss range.
+
+## Optimization Direction
+
+- You can consider filtering entry by combining other indicators such as KD and MACD
+- Dynamically adjust stop loss and take profit ratio
+- Optimize Bollinger Bands Parameters
+- Test the robustness of parameters for different trading instruments
+
+## Summary
+
+The overall risk-return balance of this strategy is good, and the backtest performance is good. The effect can be further improved through parameter tuning and indicator optimization. The reversal trading idea based on Bollinger Bands is simple and reliable and deserves further research and improvement.
+
+||
+
+## Overview
+
+This strategy combines Bollinger Bands and the Relative Strength Index (RSI) indicator to predict price volatility and determine optimal entry points. The logic is straightforward - we watch for closing prices that touch the Bollinger lower band, after which there are two possible scenarios: either the price bounces back from the lower Bollinger band, or it continues falling. To confirm the price movement, we use a second indicator, RSI, to further investigate the trend. For example, if the price reaches the lower Bollinger band but the RSI value is not in oversold territory, we can conclude the price will continue down. If the RSI value is oversold, we can use this area as our entry point.  
+
+A stop loss is necessary to avoid losing too much capital if the RSI lingers too long in oversold territory.
+
+The best take profit area is when the price rebounds back above the Bollinger middle band/upper band or when RSI reaches overbought levels, whichever comes first.
+
+Long entry:
+
+RSI < 30 and close price < Bollinger lower band
+
+Long exit: 
+
+RSI > 70
+
+## Strategy Logic
+
+The strategy first calculates the RSI indicator and sets upper/lower boundaries to determine overbought/oversold levels. It then calculates the Bollinger middle, upper and lower bands. When the closing price touches the lower band and RSI is below 30, go long. When RSI is above 70, close the position.
+
+Upon entering long, set stop loss and take profit points. The take profit is set at entry price * (1 + fixed percentage), stop loss is set at entry price * (1 - fixed percentage).
+
+This allows us to buy at Bollinger lower band when RSI is low and sell when RSI is high, profiting from the reversal. Stop loss and take profit control risk.
+
+## Advantage Analysis
+
+- Bollinger Bands determine reversal points accurately 
+- RSI filters out false breakouts, ensuring reliable entry
+- Stop loss and take profit manage trade risk effectively
+- Extensive backtesting and parameter optimization ensure stable profitability
+
+## Risk Analysis
+
+- Bollinger Bands do not perfectly predict reversals, some failures occur
+- RSI can also give false signals 
+- Stop loss too close cannot hold position, too loose increases risk
+
+Risks can be mitigated by adjusting Bollinger parameters, using other indicators, and widening stop loss appropriately.
+
+## Optimization Directions
+
+- Consider combining with other indicators like KD, MACD to filter entries
+- Dynamically adjust stop loss/take profit percentages
+- Optimize Bollinger parameters  
+- Test robustness across different products
+
+## Conclusion
+
+The overall risk/reward profile of this strategy is balanced and backtest results are good. Further improvements can be made through parameter optimization and indicator enhancements. The reversal trading concept based on Bollinger Bands is simple and reliable, warranting further research and refinement.
+
+
+
+> Strategy Arguments
+
+
+
+|Argument|Default|Description|
+|----|----|----|
+|v_input_1|14|Length|
+|v_input_2_close|0|Source: close|high|low|open|hl2|hlc3|hlcc4|ohlc4|
+|v_input_3|20|BB Length|
+|v_input_4|2|BB StdDev|
+|v_input_5|false|BB Offset|
+|v_input_6|false|Plot Cummulative PnL|
+|v_input_7|false|Plot Current Position Size|
+|v_input_8|10|Long Take Profit %|
+|v_input_9|25|Long Stop Loss %|
+
+
+> Source (PineScript)
+
+``` pinescript
+/*backtest
+start: 2023-09-10 00:00:00
+end: 2023-09-17 00:00:00
+period: 1m
+basePeriod: 1m
+exchanges: [{"eid":"Futures_Binance","currency":"BTC_USDT"}]
+*/
+
+//@version=4
+//strategy(title="Bollinger Band with RSI", shorttitle="BB&RSI", format=format.price, precision=2, pyramiding=50, initial_capital=10000, calc_on_order_fills=false, calc_on_every_tick=true, default_qty_type=strategy.cash, default_qty_value=1000, currency="USD")
+len = input(14, minval=1, title="Length")
+src = input(close, "Source", type = input.source)
+up = rma(max(change(src), 0), len)
+down = rma(-min(change(src), 0), len)
+rsi = down == 0 ? 100 : up == 0 ? 0 : 100 - (100 / (1 + up / down))
+plot(rsi, "RSI", color=#8E1599)
+band1 = hline(70, "Upper Band", color=#C0C0C0)
+band0 = hline(30, "Lower Band", color=#C0C0C0)
+fill(band1, band0, color=#9915FF, transp=90, title="Background")
+
+length_bb = input(20,title="BB Length", minval=1)
+mult = input(2.0, minval=0.001, maxval=50, title="BB StdDev")
+basis = sma(src, length_bb)
+dev = mult * stdev(src, length_bb)
+upper = basis + dev
+lower = basis - dev
+offset = input(0, "BB Offset", type = input.integer, minval = -500, maxval = 500)
+
+
+Plot_PnL = input(title="Plot Cummulative PnL", type=input.bool, defval=false)
+Plot_Pos = input(title="Plot Current Position Size", type=input.bool, defval=false)
+
+long_tp_inp = input(10, title='Long Take Profit %', step=0.1)/100
+long_sl_inp = input(25, title='Long Stop Loss %', step=0.1)/100
+// Take profit/stop loss
+long_take_level = strategy.position_avg_price * (1 + long_tp_inp)
+long_stop_level = strategy.position_avg_price * (1 - long_sl_inp)
+
+entry_long = rsi < 30 and src < lower
+exit_long = rsi > 70
+
+plotshape(entry_long, style=shape.labelup, color=color.green,  location=location.bottom, text="L", textcolor=color.white, title="LONG_ORDER")
+plotshape(exit_long, style=shape.labeldown, color=color.red,  location=location.top, text="S", textcolor=color.white, title="SHORT_ORDER")
+
+strategy.entry("Long",true,when=entry_long)    
+strategy.exit("TP/SL","Long", limit=long_take_level, stop=long_stop_level)
+strategy.close("Long", when=exit_long, comment="Exit")
+plot(Plot_PnL ? strategy.equity-strategy.initial_capital : na, title="PnL", color=color.red)
+plot(Plot_Pos ? strategy.position_size : na, title="open_position", color=color.fuchsia)
+
+```
+
+> Detail
+
+https://www.fmz.com/strategy/427123
+
+> Last Modified
+
+2023-09-18 14:07:51
