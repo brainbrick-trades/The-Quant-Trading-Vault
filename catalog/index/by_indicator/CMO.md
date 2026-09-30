@@ -1,0 +1,44 @@
+# Indicator: CMO
+
+36 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Dynamic-Trend-Tracking-Optimized-Strategy](../../strategies/Dynamic-Trend-Tracking-Optimized-Strategy.md) | trend_following | intraday | 45m | generic | long_short | SL/-/- | medium | 10 | Momentum/ROC, CMO | pine |
+| [Momentum-Breakout-Optimization](../../strategies/Momentum-Breakout-Optimization.md) | momentum | scalping | 5m | generic | long_short | SL/TP/- | low | 10 | EMA, SMA, WMA, LSMA/LinReg, ATR, CMO | pine |
+| [Multi-Timeframe-Moving-Average-Combined-with-Trading-Hours-Quantitative-Trading-Strategy](../../strategies/Multi-Timeframe-Moving-Average-Combined-with-Trading-Hours-Quantitative-Trading-Strategy.md) | seasonality_time | intraday | 1h | generic | long_short | SL/TP/- | low | 10 | EMA, SMA, WMA, HMA, VWMA, DEMA/TEMA, ALMA, KAMA, JMA, T3… | pine |
+| [Oscillating-Market-Long-Strategy](../../strategies/Oscillating-Market-Long-Strategy.md) | mean_reversion | intraday | 1d | generic | long_short | SL/-/- | medium | 10 | EMA, SMA, WMA, DEMA/TEMA, LSMA/LinReg, MACD, RSI… | pine |
+| [Pivot-Support-Reversal-Indicator-Strategy](../../strategies/Pivot-Support-Reversal-Indicator-Strategy.md) | support_resistance | position | 3d | generic | long_only | SL/TP/TR | low | 10 | OBV, ATR, Bollinger Bands, Pivot Points, CMO, Volume | pine |
+| [Absolute-Momentum-Indicator-Strategy](../../strategies/Absolute-Momentum-Indicator-Strategy.md) | momentum | swing | 1d | generic | long_short | -/-/- | high | 9 | SMA, CMO | pine |
+| [Adaptive-Trend-Following-Strategy-Based-on-Momentum-Oscillator](../../strategies/Adaptive-Trend-Following-Strategy-Based-on-Momentum-Oscillator.md) | momentum | swing | 1d | generic | long_only | SL/-/- | medium | 9 | SMA, CMO | pine |
+| [Advanced-Momentum-Oscillator-and-Bollinger-Bands-Quantitative-Strategy-System](../../strategies/Advanced-Momentum-Oscillator-and-Bollinger-Bands-Quantitative-Strategy-System.md) | mean_reversion | position | 2d | generic | long_short | SL/-/- | medium | 9 | SMA, Bollinger Bands, CMO, Std Dev / Z-Score | pine |
+| [Bidirectional-Reversal-and-Momentum-Moving-Average-Strategy](../../strategies/Bidirectional-Reversal-and-Momentum-Moving-Average-Strategy.md) | mean_reversion | intraday | 1h | generic | long_short | -/-/- | high | 9 | SMA, Stochastic, CMO | pine |
+| [CMO-and-WMA-Based-Dual-Moving-Average-Trading-Strategy](../../strategies/CMO-and-WMA-Based-Dual-Moving-Average-Trading-Strategy.md) | trend_following | swing | 1h | generic | long_short | -/-/- | high | 9 | SMA, WMA, CMO | pine |
+| [CMO-Oscillator-Trading-Strategy](../../strategies/CMO-Oscillator-Trading-Strategy.md) | mean_reversion | intraday | 30m | generic | long_short | -/-/- | high | 9 | CMO | pine |
+| [Dual-Moving-Average-Crossover-Algorithmic-Trading-Strategy](../../strategies/Dual-Moving-Average-Crossover-Algorithmic-Trading-Strategy.md) | mean_reversion | intraday | 1d | generic | long_only | -/-/- | high | 9 | EMA, SMA, RSI, Bollinger Bands, Ichimoku, VWAP, CMO… | pine |
+| [Dual-Reversion-CMO-Quantum-Strategy](../../strategies/Dual-Reversion-CMO-Quantum-Strategy.md) | mean_reversion | intraday | 1h | generic | long_short | -/-/- | high | 9 | SMA, WMA, Stochastic, CMO | pine |
+| [Dynamic-Momentum-Weighted-Moving-Average-Crossover-Strategy](../../strategies/Dynamic-Momentum-Weighted-Moving-Average-Crossover-Strategy.md) | trend_following | intraday | 1h | generic | long_only | -/-/- | high | 9 | EMA, SMA, WMA, HMA, VWMA, DEMA/TEMA, LSMA/LinReg, ATR… | pine |
+| [Dynamic-Position-Sizing-Strategy-Based-on-Equity-Curve](../../strategies/Dynamic-Position-Sizing-Strategy-Based-on-Equity-Curve.md) | momentum | scalping | 3m | generic | long_short | -/-/- | high | 9 | SMA, ATR, Supertrend, Momentum/ROC, CMO | pine |
+| [Dynamic-Volatility-Index-VIDYA-with-ATR-Trend-Following-Reversal-Strategy](../../strategies/Dynamic-Volatility-Index-VIDYA-with-ATR-Trend-Following-Reversal-Strategy.md) | mean_reversion | swing | 1d | indices | long_short | SL/-/- | medium | 9 | SMA, ATR, CMO | pine |
+| [Extreme-Distribution-Swing-Strategy](../../strategies/Extreme-Distribution-Swing-Strategy.md) | statistical | swing | 1m | crypto | long_short | -/-/- | medium | 9 | SMA, CMO, Percentile/Rank, Session/Time | pine |
+| [Momentum-Arbitrage-Strategy-Backtest-Analysis](../../strategies/Momentum-Arbitrage-Strategy-Backtest-Analysis.md) | momentum | intraday | 1mo | generic | long_short | -/-/- | high | 9 | SMA, CMO | pine |
+| [Momentum-Filtering-Moving-Average-Strategy](../../strategies/Momentum-Filtering-Moving-Average-Strategy.md) | momentum | intraday | 1h | generic | long_short | -/-/- | high | 9 | CMO | pine |
+| [Momentum-Reversal-Combo-Strategy](../../strategies/Momentum-Reversal-Combo-Strategy.md) | mean_reversion | intraday | 3h | generic | long_short | -/-/- | high | 9 | SMA, Stochastic, CMO | pine |
+| [Momentum-Reversal-Combo-Strategy-429948](../../strategies/Momentum-Reversal-Combo-Strategy-429948.md) | mean_reversion | hft | 1h | generic | long_short | -/-/- | very_high | 9 | SMA, Stochastic, CMO | pine |
+| [Momentum-Trading-Strategy-Based-on-CMO-and-WMA](../../strategies/Momentum-Trading-Strategy-Based-on-CMO-and-WMA.md) | momentum | intraday | 1d | generic | long_short | -/-/- | high | 9 | SMA, WMA, RSI, CMO | pine |
+| [Momentum-Trend-Following-Strategy](../../strategies/Momentum-Trend-Following-Strategy.md) | trend_following | intraday | 1h | crypto | long_only | -/-/- | high | 9 | SMA, CMO | pine |
+| [Multi-indicator-Combined-Reversal-Trading-Strategy](../../strategies/Multi-indicator-Combined-Reversal-Trading-Strategy.md) | mean_reversion | intraday | 4h | generic | long_short | SL/-/- | low | 9 | EMA, SMA, RSI, Stochastic, CMO | pine |
+| [Multi-Momentum-Indicators-Combo-Strategy](../../strategies/Multi-Momentum-Indicators-Combo-Strategy.md) | momentum | intraday | 1h | generic | long_short | -/-/- | high | 9 | EMA, HMA, VWMA, RSI, CMO | pine |
+| [Multi-Moving-Average-Rating-Trend-Strategy](../../strategies/Multi-Moving-Average-Rating-Trend-Strategy.md) | trend_following | position | 1m | generic | long_short | -/-/- | high | 9 | EMA, SMA, WMA, HMA, VWMA, DEMA/TEMA, ALMA, KAMA, JMA, T3… | pine |
+| [OBV-CMO-and-Coppock-Curve-Based-Trading-Strategy](../../strategies/OBV-CMO-and-Coppock-Curve-Based-Trading-Strategy.md) | momentum | position | 1d | generic | long_only | -/-/- | high | 9 | WMA, OBV, Momentum/ROC, CMO, Coppock, Volume | pine |
+| [Oscillator-Candles-Momentum-Trading-Strategy](../../strategies/Oscillator-Candles-Momentum-Trading-Strategy.md) | momentum | intraday | 1h | generic | long_short | SL/TP/TR | medium | 9 | EMA, SMA, WMA, HMA, VWMA, MACD, RSI, Stochastic… | pine |
+| [Single-Point-Moving-Average-Breakout-Strategy](../../strategies/Single-Point-Moving-Average-Breakout-Strategy.md) | momentum | intraday | 1h | generic | long_short | -/-/- | high | 9 | CMO | pine |
+| [Super-Momentum-Strategy](../../strategies/Super-Momentum-Strategy.md) | momentum | scalping | 3m | generic | long_short | -/-/- | very_high | 9 | CMO | pine |
+| [Variable-Index-Dynamic-Average-Multi-Tier-Profit-Trend-Following-Strategy](../../strategies/Variable-Index-Dynamic-Average-Multi-Tier-Profit-Trend-Following-Strategy.md) | trend_following | swing | 1d | generic | long_short | -/TP/- | high | 9 | ATR, Bollinger Bands, CMO | pine |
+| [Adaptive-Mean-Reversion-Trading-Strategy-Based-on-Chande-Momentum-Oscillator](../../strategies/Adaptive-Mean-Reversion-Trading-Strategy-Based-on-Chande-Momentum-Oscillator.md) | mean_reversion | position | 1d | generic | long_only | -/-/- | high | 8 | SMA, RSI, CMO | pine |
+| [Adaptive-Weighted-Trend-Following-Strategy-VIDYA-Multi-Indicator-System](../../strategies/Adaptive-Weighted-Trend-Following-Strategy-VIDYA-Multi-Indicator-System.md) | trend_following | swing | 1d | generic | long_short | -/-/- | high | 8 | CMO, Aroon, Std Dev / Z-Score | pine |
+| [Momentum-and-Volatility-Based-Trend-Breakthrough-Trading-Strategy](../../strategies/Momentum-and-Volatility-Based-Trend-Breakthrough-Trading-Strategy.md) | mean_reversion | swing | 1d | generic | long_short | -/-/- | high | 8 | SMA, Bollinger Bands, CMO, Std Dev / Z-Score | pine |
+| [Trading-the-Equity-Curve-Position-Sizing-Example](../../strategies/Trading-the-Equity-Curve-Position-Sizing-Example.md) | momentum | intraday | 15m | generic | long_short | -/-/- | medium | 8 | SMA, ATR, Supertrend, Momentum/ROC, CMO | pine |
+| [bollmaboll](../../strategies/bollmaboll.md) | mean_reversion |  |  | generic | long_short | -/-/- | high | 7 | SMA, RSI, Bollinger Bands, CMO | python |

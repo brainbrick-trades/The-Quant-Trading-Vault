@@ -1,0 +1,36 @@
+# Indicator: Elder Ray / Force Index
+
+28 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Bull-and-Bear-Power-Moving-Average-Trading-Strategy](../../strategies/Bull-and-Bear-Power-Moving-Average-Trading-Strategy.md) | moving_average | intraday | 30m | generic | long_short | SL/TP/- | low | 10 | EMA, Elder Ray / Force Index | pine |
+| [CRSI-Moving-Average-Strategy](../../strategies/CRSI-Moving-Average-Strategy.md) | momentum | swing | 4h | generic | long_only | SL/TP/- | low | 10 | SMA, RSI, Momentum/ROC, Percentile/Rank… | pine |
+| [CVD-Divergence-Quantitative-Trading-Strategy](../../strategies/CVD-Divergence-Quantitative-Trading-Strategy.md) | divergence | swing | 1d | generic | long_short | SL/TP/TR | low | 10 | SMA, MACD, RSI, Pivot Points, Volume, Volume Delta/CVD… | pine |
+| [Dual-Moving-Average-and-MACD-Combination-Short-term-Trading-Strategy](../../strategies/Dual-Moving-Average-and-MACD-Combination-Short-term-Trading-Strategy.md) | momentum | intraday | 1h | forex | long_short | SL/TP/- | low | 10 | EMA, SMA, MACD, RSI, Stochastic, StochRSI, KDJ… | pine |
+| [Elders-Force-Index-Quantitative-Trading-Strategy-Based-on-Standard-Deviation-and-Moving-Av](../../strategies/Elders-Force-Index-Quantitative-Trading-Strategy-Based-on-Standard-Deviation-and-Moving-Averages.md) | mean_reversion | swing | 1d | generic | long_short | SL/TP/TR | low | 10 | EMA, SMA, ATR, Std Dev / Z-Score, Volume… | pine |
+| [Macd-Blue-Red-Leverage-Strategy](../../strategies/Macd-Blue-Red-Leverage-Strategy.md) | momentum | swing | 1d | generic | long_short | SL/-/TR | medium | 10 | EMA, SMA, MACD, Elder Ray / Force Index, Session/Time | pine |
+| [Momentum-Price-Trend-Tracking-Strategy](../../strategies/Momentum-Price-Trend-Tracking-Strategy.md) | momentum | scalping | 1m | generic | long_short | SL/TP/- | medium | 10 | EMA, SMA, WMA, Donchian Channel, Momentum/ROC… | pine |
+| [Profit-rate-theory-volatility-index-quantification-strategy](../../strategies/Profit-rate-theory-volatility-index-quantification-strategy.md) | volatility | position | 3h | indices | long_short | SL/TP/TR | low | 10 | EMA, SMA, HMA, VWMA, MACD, RSI, Stochastic, StochRSI… | pine |
+| [Quantitative-Strategy-PSARZigZagMACDART-Based-on-Multi-Indicator-Combination](../../strategies/Quantitative-Strategy-PSARZigZagMACDART-Based-on-Multi-Indicator-Combination.md) | trend_following | scalping | 1m | generic | long_short | SL/TP/- | low | 10 | EMA, SMA, LSMA/LinReg, MACD, Stochastic, ATR… | pine |
+| [Stochastic-Momentum-Dual-Indicators-Strategy](../../strategies/Stochastic-Momentum-Dual-Indicators-Strategy.md) | momentum | swing | 2d | generic | long_short | -/TP/- | very_high | 10 | EMA, SMA, RSI, Stochastic, Elder Ray / Force Index | pine |
+| [Bear-Power-Strategy](../../strategies/Bear-Power-Strategy.md) | seasonality_time | swing | 1h | generic | long_short | -/-/- | high | 9 | Elder Ray / Force Index | pine |
+| [Bear-Power-Tracking-Strategy](../../strategies/Bear-Power-Tracking-Strategy.md) | moving_average | swing | 1d | generic | long_short | -/-/- | high | 9 | EMA, Elder Ray / Force Index | pine |
+| [Binomial-Momentum-Breakout-Reversal-Strategy](../../strategies/Binomial-Momentum-Breakout-Reversal-Strategy.md) | mean_reversion | intraday | 1h | generic | long_short | -/-/- | high | 9 | SMA, Stochastic, Elder Ray / Force Index | pine |
+| [Bull-and-Bear-Balance-Strategy](../../strategies/Bull-and-Bear-Balance-Strategy.md) | hedging | swing | 1d | generic | long_short | -/-/- | medium | 9 | Elder Ray / Force Index | pine |
+| [Bull-and-Bear-Power-Backtest-Strategy](../../strategies/Bull-and-Bear-Power-Backtest-Strategy.md) | moving_average | intraday | 1h | generic | long_short | -/-/- | high | 9 | EMA, Elder Ray / Force Index | pine |
+| [Bull-Bear-Power-Trading-Strategy-with-Volume-Percentile-Based-Dynamic-Take-Profit-System](../../strategies/Bull-Bear-Power-Trading-Strategy-with-Volume-Percentile-Based-Dynamic-Take-Profit-System.md) | statistical | swing | 1d | generic | long_short | -/TP/- | medium | 9 | EMA, SMA, ATR, Std Dev / Z-Score, Percentile/Rank… | pine |
+| [Bull-Power-Trading-Strategy](../../strategies/Bull-Power-Trading-Strategy.md) | unclassified | intraday | 1h | generic | long_short | -/-/- | high | 9 | Elder Ray / Force Index | pine |
+| [Dual-Cross-Moving-Average-Reversal-Strategy](../../strategies/Dual-Cross-Moving-Average-Reversal-Strategy.md) | mean_reversion | intraday | 10m | generic | long_short | -/-/- | high | 9 | SMA, Stochastic, Elder Ray / Force Index | pine |
+| [Dual-Moving-Average-Crossover-and-Bull-Bear-Power-Balance-Combination-Strategy](../../strategies/Dual-Moving-Average-Crossover-and-Bull-Bear-Power-Balance-Combination-Strategy.md) | trend_following | swing | 1d | generic | long_short | -/-/- | high | 9 | EMA, Elder Ray / Force Index | pine |
+| [Elder-Ray-Bull-Power-Combo-Strategy](../../strategies/Elder-Ray-Bull-Power-Combo-Strategy.md) | mean_reversion | intraday | 1h | generic | long_short | -/-/- | high | 9 | EMA, SMA, Stochastic, Elder Ray / Force Index | pine |
+| [Multi-indicator-Combination-Strategy](../../strategies/Multi-indicator-Combination-Strategy.md) | momentum | swing | 1d | generic | long_short | -/-/- | high | 9 | EMA, SMA, WMA, HMA, MACD, RSI, Stochastic, CCI, ADX/DMI… | pine |
+| [Quantitative-Dual-indicator-Strategy](../../strategies/Quantitative-Dual-indicator-Strategy.md) | moving_average | swing | 1d | generic | long_short | -/-/- | high | 9 | EMA, SMA, Elder Ray / Force Index | pine |
+| [Short-term-Bearish-Strategy-Based-on-EMA-Crossover-and-Bear-Power-Indicators](../../strategies/Short-term-Bearish-Strategy-Based-on-EMA-Crossover-and-Bear-Power-Indicators.md) | trend_following | intraday | 1h | generic | long_short | -/-/- | high | 9 | EMA, Elder Ray / Force Index | pine |
+| [Volatility-Force-Breakthrough-Trading-Strategy](../../strategies/Volatility-Force-Breakthrough-Trading-Strategy.md) | breakout | scalping | 1h | generic | long_short | -/-/- | very_high | 9 | EMA, SMA, ATR, Bollinger Bands, Std Dev / Z-Score… | pine |
+| [15 MIN-BTCUSDTPERP-BOT](../../strategies/15MIN-BTCUSDTPERP-BOT.md) | momentum | intraday | 15m | crypto | long_only | SL/TP/- | high | 8 | EMA, SMA, WMA, HMA, VWMA, DEMA/TEMA, JMA, MACD, RSI… | pine |
+| [Adaptive-Trend-Detection-Strategy-with-Dual-Envelope-EMA-System](../../strategies/Adaptive-Trend-Detection-Strategy-with-Dual-Envelope-EMA-System.md) | mean_reversion | intraday | 1h | generic | long_short | -/-/- | high | 8 | EMA, Elder Ray / Force Index, Envelope/STARC | pine |
+| [EMA-SMA-Multi-Indicator-Comprehensive-Trend-Following-Strategy](../../strategies/EMA-SMA-Multi-Indicator-Comprehensive-Trend-Following-Strategy.md) | trend_following | intraday | 1h | generic | long_short | -/-/- | medium | 8 | EMA, SMA, MACD, RSI, Stochastic, CCI, Momentum/ROC… | pine |
+| [Multi-factor-Combined-Trading-Strategy](../../strategies/Multi-factor-Combined-Trading-Strategy.md) | mean_reversion | swing | 1d | generic | long_short | -/-/- | high | 8 | EMA, SMA, Stochastic, Elder Ray / Force Index | pine |

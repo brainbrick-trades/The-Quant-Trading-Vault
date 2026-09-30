@@ -1,0 +1,28 @@
+# Indicator: McGinley
+
+20 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Dual-ATR-Channel-Trend-Following-Strategy](../../strategies/Dual-ATR-Channel-Trend-Following-Strategy.md) | trend_following | intraday | 15m | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / WMA / HMA / VWMA / DEMA/TEMA / ALMA / LSMA/LinReg / MACD / RSI / ATR | pine |
+| [Dual-directional-Trailing-Stop-Moving-Average-Trend-Strategy](../../strategies/Dual-directional-Trailing-Stop-Moving-Average-Trend-Strategy.md) | trend_following | scalping | 1m | generic | long_short | SL/TP/TR | low | 10 | EMA / SMA / WMA / HMA / DEMA/TEMA / LSMA/LinReg / RSI / ADX/DMI / ATR / Bollinge | pine |
+| [McGinley-Moving-Average-Trading-Strategy](../../strategies/McGinley-Moving-Average-Trading-Strategy.md) | moving_average | swing | 1d | generic | long_short | -/TP/- | high | 10 | EMA / McGinley | pine |
+| [Momentum-Tracking-Strategy-437030](../../strategies/Momentum-Tracking-Strategy-437030.md) | momentum | intraday | 1h | generic | long_only | SL/TP/TR | low | 10 | EMA / SMA / WMA / HMA / VWMA / DEMA/TEMA / ALMA / LSMA/LinReg / ATR / Ichimoku / | pine |
+| [Multi-indicator-Trend-Following-Strategy-433078](../../strategies/Multi-indicator-Trend-Following-Strategy-433078.md) | trend_following | scalping | 5m | generic | long_only | SL/TP/- | low | 10 | EMA / SMA / WMA / HMA / DEMA/TEMA / JMA / LSMA/LinReg / MACD / ADX/DMI / ATR / B | pine |
+| [Multiple-Indicator-Fusion-Trading-Strategy](../../strategies/Multiple-Indicator-Fusion-Trading-Strategy.md) | momentum | scalping | 5m | generic | long_short | SL/TP/TR | low | 10 | EMA / SMA / WMA / HMA / DEMA/TEMA / LSMA/LinReg / MACD / RSI / ATR / Keltner Cha | pine |
+| [QQE-MOD-SSL-Hybrid-Waddah-Attar-Explosion](../../strategies/QQE-MOD-SSL-Hybrid-Waddah-Attar-Explosion.md) | chart_pattern | intraday | 1h | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / WMA / HMA / DEMA/TEMA / JMA / LSMA/LinReg / RSI / ATR / Bollinger Ba | pine |
+| [Simple-Trend-Following-Strategy-426834](../../strategies/Simple-Trend-Following-Strategy-426834.md) | trend_following | swing | 4h | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / WMA / HMA / McGinley | pine |
+| [Solid-Trend-Following-Strategy](../../strategies/Solid-Trend-Following-Strategy.md) | trend_following | intraday | 1h | crypto | long_short | SL/TP/TR | low | 10 | EMA / SMA / WMA / HMA / DEMA/TEMA / LSMA/LinReg / RSI / ADX/DMI / ATR / Bollinge | pine |
+| [SSL-Channel-and-Wave-Trend-Quantitative-Trading-Strategy](../../strategies/SSL-Channel-and-Wave-Trend-Quantitative-Trading-Strategy.md) | trend_following | intraday | 1h | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / WMA / HMA / DEMA/TEMA / JMA / LSMA/LinReg / ATR / Bollinger Bands /  | pine |
+| [SSL-Hybrid-Exit-Arrow-Quant-Strategy](../../strategies/SSL-Hybrid-Exit-Arrow-Quant-Strategy.md) | volatility | intraday | 1m | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / WMA / HMA / DEMA/TEMA / JMA / LSMA/LinReg / RSI / ATR / Bollinger Ba | pine |
+| [SSL-Momentum-Combo-Trading-Strategy](../../strategies/SSL-Momentum-Combo-Trading-Strategy.md) | momentum | intraday | 2h | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / WMA / HMA / DEMA/TEMA / JMA / LSMA/LinReg / RSI / ATR / Bollinger Ba | pine |
+| [Trend-Following-Strategy-Based-on-SSL-Baseline](../../strategies/Trend-Following-Strategy-Based-on-SSL-Baseline.md) | trend_following | swing | 4h | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / WMA / HMA / DEMA/TEMA / JMA / LSMA/LinReg / ATR / Keltner Channel /  | pine |
+| [Trend-Reversal-Tracking-Stop-Loss-Strategy](../../strategies/Trend-Reversal-Tracking-Stop-Loss-Strategy.md) | mean_reversion | intraday | 1h | generic | long_only | SL/TP/TR | low | 10 | EMA / SMA / WMA / HMA / VWMA / DEMA/TEMA / ALMA / LSMA/LinReg / ATR / Ichimoku / | pine |
+| [Triple-Indicators-Sentiment-Driven-Breakout-Strategy](../../strategies/Triple-Indicators-Sentiment-Driven-Breakout-Strategy.md) | breakout | intraday | 1h | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / WMA / HMA / DEMA/TEMA / JMA / LSMA/LinReg / RSI / ATR / Bollinger Ba | pine |
+| [Triple-Pattern-Oscillation-Trading-Strategy](../../strategies/Triple-Pattern-Oscillation-Trading-Strategy.md) | mean_reversion | intraday | 1h | crypto | long_short | SL/TP/TR | low | 10 | EMA / SMA / WMA / HMA / DEMA/TEMA / LSMA/LinReg / RSI / ADX/DMI / ATR / Bollinge | pine |
+| [MilleMachine](../../strategies/MilleMachine.md) | trend_following |  |  | generic | long_only | SL/TP/TR | low | 9 | EMA / SMA / WMA / HMA / VWMA / DEMA/TEMA / ALMA / LSMA/LinReg / ATR / Ichimoku / | pine |
+| [MZ-MA-Cross-Multiple-TimeFrame-Strategy](../../strategies/MZ-MA-Cross-Multiple-TimeFrame-Strategy.md) | trend_following | intraday | 1h | generic | long_only | -/-/- | high | 9 | EMA / SMA / WMA / HMA / DEMA/TEMA / JMA / LSMA/LinReg / Ichimoku / Heikin Ashi / | pine |
+| [Reversal-Trading-Strategy-Based-on-Stochastic-RSI](../../strategies/Reversal-Trading-Strategy-Based-on-Stochastic-RSI.md) | mean_reversion | scalping | 5m | generic | long_short | SL/-/- | high | 9 | EMA / SMA / WMA / HMA / DEMA/TEMA / JMA / LSMA/LinReg / RSI / Stochastic / Stoch | pine |
+| [Triple-Dynamic-Moving-Average-Trend-Tracking-Strategy](../../strategies/Triple-Dynamic-Moving-Average-Trend-Tracking-Strategy.md) | trend_following | intraday | 1h | generic | long_short | -/-/- | high | 9 | EMA / SMA / WMA / HMA / DEMA/TEMA / LSMA/LinReg / ZigZag / Session/Time / McGinl | pine |

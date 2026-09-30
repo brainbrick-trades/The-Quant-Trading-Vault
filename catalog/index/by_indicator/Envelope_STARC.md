@@ -1,0 +1,33 @@
+# Indicator: Envelope/STARC
+
+25 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Anchored-Rolling-CVDVWAP-Signal-Strategy](../../strategies/Anchored-Rolling-CVDVWAP-Signal-Strategy.md) | mean_reversion | swing | 1d | generic | long_short | SL/TP/- | low | 10 | SMA, VWAP, Momentum/ROC, Std Dev / Z-Score… | pine |
+| [Bollinger-Band-Moving-Average-and-MACD-Combined-Trading-Strategy](../../strategies/Bollinger-Band-Moving-Average-and-MACD-Combined-Trading-Strategy.md) | momentum | intraday | 2h | generic | long_short | SL/TP/- | low | 10 | EMA, SMA, MACD, Bollinger Bands, Std Dev / Z-Score… | pine |
+| [Coin-Toss-Strategy](../../strategies/Coin-Toss-Strategy.md) | volatility | position | 15m | crypto | long_short | SL/TP/TR | low | 10 | Envelope/STARC | javascript |
+| [Dynamic-Envelope-Moving-Average-Strategy](../../strategies/Dynamic-Envelope-Moving-Average-Strategy.md) | mean_reversion | intraday | 1h | generic | long_short | -/TP/- | high | 10 | EMA, SMA, WMA, HMA, DEMA/TEMA, Highest/Lowest (channel)… | pine |
+| [Hedging-Oscillation-Reversal-Strategy](../../strategies/Hedging-Oscillation-Reversal-Strategy.md) | mean_reversion | scalping | 5m | generic | long_short | SL/-/- | high | 10 | EMA, SMA, Stochastic, ADX/DMI, Bollinger Bands… | pine |
+| [Lu-Shen-Simple-Volatility-Strategy](../../strategies/Lu-Shen-Simple-Volatility-Strategy.md) | volatility | position | 15m | crypto | long_short | SL/TP/- | low | 10 | Highest/Lowest (channel), Envelope/STARC | javascript |
+| [Mean-Reversion-Envelope-Moving-Average-Strategy](../../strategies/Mean-Reversion-Envelope-Moving-Average-Strategy.md) | mean_reversion | intraday | 1d | crypto | long_short | -/TP/- | high | 10 | EMA, SMA, DEMA/TEMA, Volume Delta/CVD, Envelope/STARC | pine |
+| [Moving-Average-Envelop-Channel-Trend-Following-Strategy](../../strategies/Moving-Average-Envelop-Channel-Trend-Following-Strategy.md) | trend_following | scalping | 1m | generic | long_short | SL/TP/- | high | 10 | EMA, SMA, WMA, DEMA/TEMA, Highest/Lowest (channel)… | pine |
+| [Quantitative-Trading-Based-on-Moving-Average-Envelope-and-ATR-Trailing-Stop](../../strategies/Quantitative-Trading-Based-on-Moving-Average-Envelope-and-ATR-Trailing-Stop.md) | mean_reversion | swing | 1d | generic | long_short | SL/-/TR | medium | 10 | EMA, SMA, ATR, Highest/Lowest (channel), Envelope/STARC | pine |
+| [Trend-Breakout-Strategy-Based-on-Bollinger-Bands](../../strategies/Trend-Breakout-Strategy-Based-on-Bollinger-Bands.md) | breakout | swing | 1d | stocks | long_short | SL/TP/- | medium | 10 | SMA, Bollinger Bands, Highest/Lowest (channel), Volume… | pine |
+| [Trend-Following-Strategy-Based-on-Nadaraya-Watson-Envelopes-and-ROC-Indicator](../../strategies/Trend-Following-Strategy-Based-on-Nadaraya-Watson-Envelopes-and-ROC-Indicator.md) | trend_following | swing | 1d | forex | long_short | SL/TP/- | low | 10 | Momentum/ROC, Envelope/STARC, Kernel Regression | pine |
+| [123-Reversal-and-STARC-Bands-Combo-Strategy](../../strategies/123-Reversal-and-STARC-Bands-Combo-Strategy.md) | mean_reversion | intraday | 45m | generic | long_short | -/-/- | high | 9 | SMA, Stochastic, ATR, Envelope/STARC | pine |
+| [123-Reversal-Moving-Average-Envelope-Strategy](../../strategies/123-Reversal-Moving-Average-Envelope-Strategy.md) | mean_reversion | swing | 4h | generic | long_short | -/-/- | high | 9 | SMA, Stochastic, KDJ, Envelope/STARC | pine |
+| [Amazing-Price-Breakout-Strategy](../../strategies/Amazing-Price-Breakout-Strategy.md) | breakout | intraday | 1h | generic | long_short | SL/-/TR | medium | 9 | SMA, MACD, RSI, KDJ, ATR, Bollinger Bands… | pine |
+| [Bollinger-Bands-and-StochRSI-Momentum-Strategy](../../strategies/Bollinger-Bands-and-StochRSI-Momentum-Strategy.md) | mean_reversion | scalping | 1m | generic | long_short | -/-/- | very_high | 9 | SMA, RSI, Stochastic, StochRSI, Bollinger Bands… | pine |
+| [Clear-Trend-Tracking-Strategy](../../strategies/Clear-Trend-Tracking-Strategy.md) | trend_following | swing | 1d | indices | long_short | -/-/- | high | 9 | EMA, SMA, WMA, VWMA, RSI, Stochastic, MFI, WaveTrend… | pine |
+| [Dual-Moving-Average-Price-Reversal-Breakout-Strategy](../../strategies/Dual-Moving-Average-Price-Reversal-Breakout-Strategy.md) | mean_reversion | intraday | 2h | generic | long_short | -/-/- | high | 9 | EMA, SMA, Stochastic, Envelope/STARC | pine |
+| [Dynamic-Channel-Percentage-Envelope-Strategy](../../strategies/Dynamic-Channel-Percentage-Envelope-Strategy.md) | mean_reversion | position | 2d | generic | long_only | -/TP/- | high | 9 | EMA, SMA, Envelope/STARC | pine |
+| [Momentum-Tracking-Adaptive-Statistical-Arbitrage-Strategy](../../strategies/Momentum-Tracking-Adaptive-Statistical-Arbitrage-Strategy.md) | mean_reversion | swing | 1d | generic | long_only | -/-/- | high | 9 | ATR, Envelope/STARC, Kernel Regression | pine |
+| [Moving-Average-Displaced-Envelope-Strategy](../../strategies/Moving-Average-Displaced-Envelope-Strategy.md) | mean_reversion | scalping | 1m | generic | long_short | -/-/- | very_high | 9 | EMA, Envelope/STARC | pine |
+| [Moving-Average-Envelopes-Trading-Strategy](../../strategies/Moving-Average-Envelopes-Trading-Strategy.md) | mean_reversion | intraday | 1h | generic | long_short | -/-/- | high | 9 | SMA, Envelope/STARC | pine |
+| [Multi-factor-Quantitative-Trading-Strategy-430013](../../strategies/Multi-factor-Quantitative-Trading-Strategy-430013.md) | trend_following |  |  | crypto | long_short | SL/-/- | medium | 9 | EMA, SMA, KAMA, LSMA/LinReg, CCI, ATR, Donchian Channel… | pine |
+| [Nadaraya-Watson-Envelope-Multi-Confirmation-Dynamic-Stop-Loss-Strategy](../../strategies/Nadaraya-Watson-Envelope-Multi-Confirmation-Dynamic-Stop-Loss-Strategy.md) | mean_reversion | intraday | 1h | generic | long_short | SL/-/- | medium | 9 | SMA, RSI, ADX/DMI, Envelope/STARC, Kernel Regression | pine |
+| [STARC-Channel-Backtest-Strategy](../../strategies/STARC-Channel-Backtest-Strategy.md) | channel | position | 2h | generic | long_short | -/-/- | high | 9 | SMA, ATR, Envelope/STARC | pine |
+| [Adaptive-Trend-Detection-Strategy-with-Dual-Envelope-EMA-System](../../strategies/Adaptive-Trend-Detection-Strategy-with-Dual-Envelope-EMA-System.md) | mean_reversion | intraday | 1h | generic | long_short | -/-/- | high | 8 | EMA, Elder Ray / Force Index, Envelope/STARC | pine |

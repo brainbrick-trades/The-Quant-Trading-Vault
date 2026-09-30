@@ -1,0 +1,19 @@
+# Indicator: Kernel Regression
+
+11 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Adaptive-Trend-Following-System-with-Kernel-Smoothed-Multiple-Moving-Averages](../../strategies/Adaptive-Trend-Following-System-with-Kernel-Smoothed-Multiple-Moving-Averages.md) | trend_following | swing | 1d | generic | long_short | SL/TP/TR | low | 10 | RSI / ATR / Kernel Regression / Gaussian Filter / Ma Ribbon | pine |
+| [Dual-Indicators-Combo-Crazy-Intraday-Scalping-Strategy](../../strategies/Dual-Indicators-Combo-Crazy-Intraday-Scalping-Strategy.md) | scalping | scalping | 10m | generic | long_short | SL/-/- | medium | 10 | SMA / RSI / Momentum/ROC / Highest/Lowest (channel) / Kernel Regression | pine |
+| [Multi-Dimensional-Integration-Trading-Strategy-Based-on-Nadaraya-Watson](../../strategies/Multi-Dimensional-Integration-Trading-Strategy-Based-on-Nadaraya-Watson.md) | statistical | scalping | 1m | generic | long_short | SL/TP/- | medium | 10 | SMA / RSI / ATR / Kernel Regression | pine |
+| [Multi-Kernel-Regression-Dynamic-Reactor-Trend-Following-Strategy](../../strategies/Multi-Kernel-Regression-Dynamic-Reactor-Trend-Following-Strategy.md) | statistical | hft | 1d | generic | long_short | SL/TP/TR | medium | 10 | SMA / RSI / ATR / Kernel Regression / Gaussian Filter | pine |
+| [Multi-Kernel-Regression-Dynamic-Trend-Trading-Strategy](../../strategies/Multi-Kernel-Regression-Dynamic-Trend-Trading-Strategy.md) | statistical | position | 1h | generic | long_short | SL/TP/- | low | 10 | SMA / ATR / Kernel Regression / Gaussian Filter | pine |
+| [Trend-Following-Strategy-Based-on-Nadaraya-Watson-Envelopes-and-ROC-Indicator](../../strategies/Trend-Following-Strategy-Based-on-Nadaraya-Watson-Envelopes-and-ROC-Indicator.md) | trend_following | swing | 1d | forex | long_short | SL/TP/- | low | 10 | Momentum/ROC / Envelope/STARC / Kernel Regression | pine |
+| [Trend-Following-Strategy-Based-on-Nadaraya-Watson-Regression-and-ATR-Channel](../../strategies/Trend-Following-Strategy-Based-on-Nadaraya-Watson-Regression-and-ATR-Channel.md) | trend_following | intraday | 1h | generic | long_short | SL/-/- | medium | 10 | EMA / ATR / Kernel Regression | pine |
+| [Momentum-Tracking-Adaptive-Statistical-Arbitrage-Strategy](../../strategies/Momentum-Tracking-Adaptive-Statistical-Arbitrage-Strategy.md) | mean_reversion | swing | 1d | generic | long_only | -/-/- | high | 9 | ATR / Envelope/STARC / Kernel Regression | pine |
+| [Nadaraya-Watson-Envelope-Multi-Confirmation-Dynamic-Stop-Loss-Strategy](../../strategies/Nadaraya-Watson-Envelope-Multi-Confirmation-Dynamic-Stop-Loss-Strategy.md) | mean_reversion | intraday | 1h | generic | long_short | SL/-/- | medium | 9 | SMA / RSI / ADX/DMI / Envelope/STARC / Kernel Regression | pine |
+| [Adaptive-Trend-Following-Strategy-Based-on-Kernel-Regression-and-ATR-Dynamic-Bands](../../strategies/Adaptive-Trend-Following-Strategy-Based-on-Kernel-Regression-and-ATR-Dynamic-Bands.md) | trend_following | intraday | 1h | generic | long_short | -/-/- | high | 8 | ATR / Momentum/ROC / Kernel Regression / Gaussian Filter | pine |
+| [Intelligent-Trend-Following-Strategy-System-Based-on-Nadaraya-Watson-Kernel-Estimation-and](../../strategies/Intelligent-Trend-Following-Strategy-System-Based-on-Nadaraya-Watson-Kernel-Estimation-and-Moving-Average-Crossover.md) | trend_following | swing | 1d | generic | long_short | -/-/- | high | 8 | SMA / Kernel Regression / Gaussian Filter | pine |

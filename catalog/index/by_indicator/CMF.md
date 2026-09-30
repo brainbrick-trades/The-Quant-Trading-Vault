@@ -1,0 +1,25 @@
+# Indicator: CMF
+
+17 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [CMF-Momentum-Breakthrough-Moving-Average-Strategy](../../strategies/CMF-Momentum-Breakthrough-Moving-Average-Strategy.md) | momentum | intraday | 45m | generic | long_only | SL/TP/- | low | 10 | EMA / SMA / ATR / Momentum/ROC / CMF / Volume / Session/Time | pine |
+| [Momentum-and-Money-Flow-Crossroad-Cashing-Strategy](../../strategies/Momentum-and-Money-Flow-Crossroad-Cashing-Strategy.md) | momentum | intraday | 1h | generic | long_short | SL/TP/- | low | 10 | SMA / Stochastic / CMF / Volume | pine |
+| [Multi-factor-Quantitative-Trading-Strategy](../../strategies/Multi-factor-Quantitative-Trading-Strategy.md) | momentum | swing | 1d | generic | long_only | SL/TP/- | low | 10 | EMA / SMA / LSMA/LinReg / MACD / RSI / CCI / MFI / OBV / Pivot Points / CMF / St | pine |
+| [Multi-Market-Adaptive-Multi-Indicator-Trend-Following-Strategy](../../strategies/Multi-Market-Adaptive-Multi-Indicator-Trend-Following-Strategy.md) | trend_following | swing | 1d | generic | long_short | SL/TP/- | low | 10 | SMA / WMA / ATR / Momentum/ROC / CMF / DPO / Coppock / Volume | pine |
+| [Parabolic-Stop-and-Reserve-Multi-Indicator-Trading-Strategy](../../strategies/Parabolic-Stop-and-Reserve-Multi-Indicator-Trading-Strategy.md) | trend_following | intraday | 45m | generic | long_short | SL/-/- | medium | 10 | EMA / SMA / DEMA/TEMA / MACD / RSI / Stochastic / OBV / Parabolic SAR / CMF / Vo | pine |
+| [Quantitative-Trading-Strategy-with-Multiple-Factors](../../strategies/Quantitative-Trading-Strategy-with-Multiple-Factors.md) | mean_reversion | swing | 1d | stocks | long_only | -/TP/- | high | 10 | EMA / SMA / MACD / RSI / CCI / MFI / OBV / Pivot Points / CMF / Squeeze (TTM) /  | pine |
+| [This-strategy-generates-trading-signals-based-on-the-Chaikin-Money-Flow-CMF](../../strategies/This-strategy-generates-trading-signals-based-on-the-Chaikin-Money-Flow-CMF.md) | volume | intraday | 1d | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / CMF / Volume | pine |
+| [A-Trend-Strategy-Optimization-Based-On-Ichimoku-Cloud-Chart](../../strategies/A-Trend-Strategy-Optimization-Based-On-Ichimoku-Cloud-Chart.md) | trend_following | scalping | 1m | generic | long_short | -/-/- | very_high | 9 | EMA / SMA / MACD / Ichimoku / Momentum/ROC / TSI / CMF / Highest/Lowest (channel | pine |
+| [Adaptive-Take-Profit-and-Stop-Loss-Strategy-Based-on-Dual-Time-Frames-and-Momentum-Indicat](../../strategies/Adaptive-Take-Profit-and-Stop-Loss-Strategy-Based-on-Dual-Time-Frames-and-Momentum-Indicators.md) | momentum | intraday | 15m | generic | long_short | SL/TP/- | medium | 9 | EMA / SMA / LSMA/LinReg / CMF / Squeeze (TTM) / Highest/Lowest (channel) / Volum | pine |
+| [An-Intraday-Trend-Following-Quantitative-Strategy-Based-on-Multi-indicator-Condition-Filte](../../strategies/An-Intraday-Trend-Following-Quantitative-Strategy-Based-on-Multi-indicator-Condition-Filtering.md) | trend_following | intraday | 1d | generic | unknown | -/-/- | high | 9 | EMA / RSI / ADX/DMI / Parabolic SAR / CMF / Volume | pine |
+| [Ichimoku-Mixed-Equilibrium-Table-Macd-and-Tsi-Combined-Strategy](../../strategies/Ichimoku-Mixed-Equilibrium-Table-Macd-and-Tsi-Combined-Strategy.md) | momentum | hft | 1h | generic | long_short | -/-/- | very_high | 9 | EMA / SMA / MACD / Ichimoku / Momentum/ROC / TSI / CMF / Highest/Lowest (channel | pine |
+| [Kairou-Strategy](../../strategies/Kairou-Strategy.md) | momentum | intraday | 1h | generic | long_short | -/-/- | high | 9 | EMA / SMA / MACD / Ichimoku / Momentum/ROC / TSI / CMF / Highest/Lowest (channel | pine |
+| [WaveTrend-and-CMF-Based-Trend-Following-Strategy](../../strategies/WaveTrend-and-CMF-Based-Trend-Following-Strategy.md) | trend_following | intraday | 15m | generic | long_short | -/-/- | very_high | 9 | EMA / SMA / WMA / CMF / WaveTrend / Volume | pine |
+| [Daily-HIGH-LOW-Strategy](../../strategies/Daily-HIGH-LOW-Strategy.md) | breakout | intraday | 1d | generic | long_short | SL/-/- | high | 8 | EMA / CMF / Volume | pine |
+| [Multi-Timeframe-Dynamic-Stop-Loss-EMA-Squeeze-Trading-Strategy](../../strategies/Multi-Timeframe-Dynamic-Stop-Loss-EMA-Squeeze-Trading-Strategy.md) | volatility | intraday | 1h | crypto | long_short | SL/TP/- | medium | 8 | EMA / SMA / LSMA/LinReg / MFI / CMF / Squeeze (TTM) / Highest/Lowest (channel) / | pine |
+| [Multi-Volume-Momentum-Combined-Trading-Strategy](../../strategies/Multi-Volume-Momentum-Combined-Trading-Strategy.md) | momentum | swing | 1d | generic | long_only | -/-/- | high | 8 | SMA / RSI / MFI / OBV / VWAP / CMF / Volume | pine |
+| [Multi-Timeframe-EMA-Trend-Strategy-with-Daily-High-Low-Breakout-System](../../strategies/Multi-Timeframe-EMA-Trend-Strategy-with-Daily-High-Low-Breakout-System.md) | breakout | swing | 1d | generic | long_short | SL/-/- | high | 7 | EMA / CMF / Volume | pine |

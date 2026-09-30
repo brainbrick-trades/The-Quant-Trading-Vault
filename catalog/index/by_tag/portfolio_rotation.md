@@ -1,0 +1,26 @@
+# Strategy tag: portfolio_rotation
+
+18 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Bollinger-Band-Breakout-Strategy-431394](../../strategies/Bollinger-Band-Breakout-Strategy-431394.md) | mean_reversion | intraday | 30m | crypto | long_only | SL/TP/- | low | 10 | SMA, Bollinger Bands, Std Dev / Z-Score, Harmonic Patterns | pine |
+| [Coral-Trend-Pullback-Strategy](../../strategies/Coral-Trend-Pullback-Strategy.md) | mean_reversion | scalping | 3m | generic | long_short | SL/TP/- | low | 10 | EMA, SMA, WMA, HMA, ALMA, RSI, Stochastic, ADX/DMI… | pine |
+| [Dynamic-ATR-based-Trailing-Stop-Trading-Strategy](../../strategies/Dynamic-ATR-based-Trailing-Stop-Trading-Strategy.md) | volatility | scalping | 5m | generic | long_short | SL/-/TR | high | 10 | EMA, ATR, Heikin Ashi, Session/Time | pine |
+| [Dynamic-Moving-Average-Crossover-Trend-Following-Strategy-with-ATR-Risk-Management-System](../../strategies/Dynamic-Moving-Average-Crossover-Trend-Following-Strategy-with-ATR-Risk-Management-System.md) | trend_following | swing | 3h | generic | long_short | SL/TP/- | low | 10 | SMA, ATR | pine |
+| [Dynamic-Trend-Following-ATR-Multi-Period-Trading-Strategy](../../strategies/Dynamic-Trend-Following-ATR-Multi-Period-Trading-Strategy.md) | trend_following | scalping | 5m | generic | long_short | SL/-/TR | high | 10 | EMA, ATR, Heikin Ashi, Session/Time | pine |
+| [Dynamic-Trend-Following-Strategy-446526](../../strategies/Dynamic-Trend-Following-Strategy-446526.md) | trend_following | intraday | 1h | generic | long_short | SL/TP/- | low | 10 | SMA, Ma Ribbon | pine |
+| [Momentum-Rotation-Across-Timeframes-Trend-Following-Strategy](../../strategies/Momentum-Rotation-Across-Timeframes-Trend-Following-Strategy.md) | trend_following | position | 1w | crypto | long_short | SL/TP/TR | low | 10 | EMA, RSI, ATR, Heikin Ashi, Session/Time | pine |
+| [Multi-factor-Momentum-Rotation-Strategy](../../strategies/Multi-factor-Momentum-Rotation-Strategy.md) | momentum | intraday | 2h | stocks | long_short | SL/-/TR | medium | 10 | SMA, MACD, RSI, Bollinger Bands, Std Dev / Z-Score | pine |
+| [Reversal-Trading-Strategy-Based-on-Generalized-Support-Resistance](../../strategies/Reversal-Trading-Strategy-Based-on-Generalized-Support-Resistance.md) | support_resistance | swing | 1h | generic | long_only | SL/TP/TR | low | 10 | SMA, ATR, Std Dev / Z-Score, Volume, Fractals | pine |
+| [SPARK-Dynamic-Position-Sizing-and-Dual-Indicator-Trading-Strategy](../../strategies/SPARK-Dynamic-Position-Sizing-and-Dual-Indicator-Trading-Strategy.md) | mean_reversion | intraday | 2h | generic | long_short | SL/TP/- | low | 10 | SMA, RSI, ATR, Supertrend | pine |
+| [SSL-Channel-and-Wave-Trend-Quantitative-Trading-Strategy](../../strategies/SSL-Channel-and-Wave-Trend-Quantitative-Trading-Strategy.md) | trend_following | intraday | 1h | generic | long_short | SL/TP/- | low | 10 | EMA, SMA, WMA, HMA, DEMA/TEMA, JMA, LSMA/LinReg, ATR… | pine |
+| [Trend-Following-Strategy-Based-on-SSL-Baseline](../../strategies/Trend-Following-Strategy-Based-on-SSL-Baseline.md) | trend_following | swing | 4h | generic | long_short | SL/TP/- | low | 10 | EMA, SMA, WMA, HMA, DEMA/TEMA, JMA, LSMA/LinReg, ATR… | pine |
+| [Adaptive-Regularized-Moving-Average-Cross-Market-Arbitrage-Strategy](../../strategies/Adaptive-Regularized-Moving-Average-Cross-Market-Arbitrage-Strategy.md) | arbitrage | intraday | 1h | generic | long_short | -/-/- | medium | 9 | Highest/Lowest (channel) | pine |
+| [Dynamic-Capital-Allocation-Strategy-Based-on-Heikin-Ashi-Candles-and-Relative-Strength-Ind](../../strategies/Dynamic-Capital-Allocation-Strategy-Based-on-Heikin-Ashi-Candles-and-Relative-Strength-Index.md) | momentum | swing | 1d | commodities | long_only | -/-/- | medium | 9 | RSI, Heikin Ashi, Session/Time | pine |
+| [Dynamic-Position-Building-Strategy](../../strategies/Dynamic-Position-Building-Strategy.md) | dca | dca_accumulation | 1h | generic | long_only | -/-/- | low | 9 | Session/Time | pine |
+| [Adaptive-Trend-Following-Strategy-Based-on-Kernel-Regression-and-ATR-Dynamic-Bands](../../strategies/Adaptive-Trend-Following-Strategy-Based-on-Kernel-Regression-and-ATR-Dynamic-Bands.md) | trend_following | intraday | 1h | generic | long_short | -/-/- | high | 8 | ATR, Momentum/ROC, Kernel Regression, Gaussian Filter | pine |
+| [Gamma-Weighted-Momentum-Based-Bitcoin-Futures-Intelligent-Trading-Strategy](../../strategies/Gamma-Weighted-Momentum-Based-Bitcoin-Futures-Intelligent-Trading-Strategy.md) | options | swing | 6h | crypto | long_short | -/-/- | high | 8 |  | pine |
+| [Gaussian-Channel-Trend-Following-with-Stochastic-RSI-Trading-Strategy](../../strategies/Gaussian-Channel-Trend-Following-with-Stochastic-RSI-Trading-Strategy.md) | statistical | swing | 1d | generic | long_only | -/-/- | very_high | 8 | SMA, WMA, RSI, Stochastic, StochRSI, Std Dev / Z-Score… | pine |

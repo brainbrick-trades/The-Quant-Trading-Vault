@@ -1,0 +1,48 @@
+# Trading style: dca_accumulation
+
+40 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Adaptive-Cost-Average-Dynamic-Grid-Strategy-Advanced-Quantitative-Trading-System-Based-on-](../../strategies/Adaptive-Cost-Average-Dynamic-Grid-Strategy-Advanced-Quantitative-Trading-System-Based-on-DCA-and-Martingale-Principles.md) | grid | dca_accumulation | 1d | crypto | long_only | SL/TP/- | medium | 10 | RSI, Volume | pine |
+| [Bitcoin-Dollar-Cost-Averaging-Based-on-BEAM-Bands](../../strategies/Bitcoin-Dollar-Cost-Averaging-Based-on-BEAM-Bands.md) | dca | dca_accumulation | 1d | crypto | long_only | -/TP/- | medium | 10 | SMA | pine |
+| [Bollinger-Band-and-RSI-Mixing-with-DCA-Strategy](../../strategies/Bollinger-Band-and-RSI-Mixing-with-DCA-Strategy.md) | dca | dca_accumulation | 1d | generic | long_only | SL/TP/- | low | 10 | SMA, RSI, Stochastic, Bollinger Bands, Range Filter… | pine |
+| [Daily-DCA-Strategy-with-Touching-EMAs](../../strategies/Daily-DCA-Strategy-with-Touching-EMAs.md) | dca | dca_accumulation | 1d | generic | long_only | SL/-/- | low | 10 | EMA, SMA | pine |
+| [DCA-Bot-Strategy](../../strategies/DCA-Bot-Strategy.md) | dca | dca_accumulation | 15h | generic | long_only | SL/TP/TR | low | 10 | Volume | pine |
+| [DCA-Strategy-with-Trailing-Take-Profit](../../strategies/DCA-Strategy-with-Trailing-Take-Profit.md) | dca | dca_accumulation | 1d | generic | long_only | SL/TP/TR | low | 10 |  | pine |
+| [Double-Bottom-Reversal-Mean-Reversion-DCA-Grid-Strategy](../../strategies/Double-Bottom-Reversal-Mean-Reversion-DCA-Grid-Strategy.md) | mean_reversion | dca_accumulation | 3m | generic | long_only | SL/TP/- | low | 10 | ATR | pine |
+| [Dynamic-Average-Cost-Dollar-Cost-Averaging-Compound-Strategy](../../strategies/Dynamic-Average-Cost-Dollar-Cost-Averaging-Compound-Strategy.md) | dca | dca_accumulation | 1h | generic | long_only | SL/TP/- | low | 10 | SMA, RSI | pine |
+| [Dynamic-Pyramiding-Strategy](../../strategies/Dynamic-Pyramiding-Strategy.md) | dca | dca_accumulation | 1m | generic | long_only | SL/TP/- | low | 10 | Volume | pine |
+| [EMA-Crossover-Smart-DCA-with-Dual-Trailing-Stop-System](../../strategies/EMA-Crossover-Smart-DCA-with-Dual-Trailing-Stop-System.md) | dca | dca_accumulation | 1h | generic | long_only | SL/TP/TR | low | 10 | EMA, ATR | pine |
+| [EMA-Multi-DCA-Strategy-with-Trailing-Stop-Loss-and-Profit-Target](../../strategies/EMA-Multi-DCA-Strategy-with-Trailing-Stop-Loss-and-Profit-Target.md) | dca | dca_accumulation | 1d | generic | long_only | SL/TP/TR | low | 10 | EMA, ATR | pine |
+| [Fibonacci-Zone-DCA-Strategy](../../strategies/Fibonacci-Zone-DCA-Strategy.md) | support_resistance | dca_accumulation | 1d | generic | long_only | SL/TP/TR | low | 10 | ADX/DMI, Donchian Channel, Fibonacci… | pine |
+| [Flawless-Victory-DCA-Momentum-and-Volatility-Strategy](../../strategies/Flawless-Victory-DCA-Momentum-and-Volatility-Strategy.md) | dca | dca_accumulation | 1d | generic | long_only | SL/TP/- | low | 10 | SMA, RSI, Bollinger Bands, Std Dev / Z-Score, Session/Time | pine |
+| [Grid-Dollar-Cost-Averaging-Strategy](../../strategies/Grid-Dollar-Cost-Averaging-Strategy.md) | dca | dca_accumulation | 1d | generic | short_only | SL/TP/- | low | 10 |  | pine |
+| [Intelligent-Accumulator-Buy-Strategy](../../strategies/Intelligent-Accumulator-Buy-Strategy.md) | mean_reversion | dca_accumulation | 1d | generic | long_only | SL/TP/- | low | 10 | SMA, RSI, Bollinger Bands, Std Dev / Z-Score | pine |
+| [Intelligent-Volatility-Responsive-DCA-Strategy-with-Dual-Trailing-Stop-System](../../strategies/Intelligent-Volatility-Responsive-DCA-Strategy-with-Dual-Trailing-Stop-System.md) | dca | dca_accumulation | 1h | generic | long_only | SL/-/TR | low | 10 | EMA, ATR | pine |
+| [Intelligent-Wave-Trend-Dollar-Cost-Averaging-Cyclical-Trading-Strategy](../../strategies/Intelligent-Wave-Trend-Dollar-Cost-Averaging-Cyclical-Trading-Strategy.md) | dca | dca_accumulation | 1h | generic | long_only | SL/TP/- | low | 10 | EMA, SMA, Awesome Oscillator, WaveTrend… | pine |
+| [Low-Risk-DCA-Trend-Trading-Strategy](../../strategies/Low-Risk-DCA-Trend-Trading-Strategy.md) | dca | dca_accumulation | 4h | generic | long_only | SL/-/- | low | 10 | RSI, Candlestick Patterns | pine |
+| [Monthly-Reversal-DCA-Strategy](../../strategies/Monthly-Reversal-DCA-Strategy.md) | dca | dca_accumulation | 1h | generic | long_only | SL/-/- | low | 10 | EMA | pine |
+| [Multi-Indicator-Confirmation-EMA-Breakout-with-DCA-and-Dynamic-Take-Profit-Strategy](../../strategies/Multi-Indicator-Confirmation-EMA-Breakout-with-DCA-and-Dynamic-Take-Profit-Strategy.md) | dca | dca_accumulation | 1d | generic | long_short | SL/TP/- | low | 10 | EMA, MACD, RSI, Bollinger Bands, Pivot Points, Volume | pine |
+| [Multi-timeframe-RSICCIBollinger-Band-DCA-Strategy](../../strategies/Multi-timeframe-RSICCIBollinger-Band-DCA-Strategy.md) | dca | dca_accumulation | 5m | generic | long_short | SL/TP/- | low | 10 | RSI, CCI, Bollinger Bands | pine |
+| [Quantized-Gradual-Weighted-DCA-Trading-Strategy](../../strategies/Quantized-Gradual-Weighted-DCA-Trading-Strategy.md) | dca | dca_accumulation | 1d | crypto | long_only | SL/TP/- | low | 10 | EMA, SMA, HMA, Volume | pine |
+| [Ranged-Volume-DCA-Strategy](../../strategies/Ranged-Volume-DCA-Strategy.md) | dca | dca_accumulation | 1d | generic | long_only | SL/TP/TR | low | 10 | Heikin Ashi, Highest/Lowest (channel), Volume, Session/Time | pine |
+| [RSI-Mean-Reversion-Price-Fluctuation-Strategy](../../strategies/RSI-Mean-Reversion-Price-Fluctuation-Strategy.md) | mean_reversion | dca_accumulation | 1h | generic | long_only | -/TP/- | high | 10 | SMA, RSI, Session/Time | pine |
+| [Time-stepped-Pyramiding-Simple-Quant-Strategy](../../strategies/Time-stepped-Pyramiding-Simple-Quant-Strategy.md) | dca | dca_accumulation | 1d | generic | long_only | SL/TP/- | low | 10 | Session/Time | pine |
+| [Volume-based-Dynamic-DCA-Strategy](../../strategies/Volume-based-Dynamic-DCA-Strategy.md) | dca | dca_accumulation | 1m | generic | long_only | -/TP/- | low | 10 | SMA, Pivot Points, Volume | pine |
+| [Accumulation-Stage-Identifier-and-Trading-Strategy](../../strategies/Accumulation-Stage-Identifier-and-Trading-Strategy.md) | dca | dca_accumulation | 1d | stocks | long_short | -/-/- | medium | 9 | SMA, MACD, OBV, ATR, Aroon, Highest/Lowest (channel), Volume | pine |
+| [DCA-Dual-Moving-Average-Turtle-Trading-Strategy](../../strategies/DCA-Dual-Moving-Average-Turtle-Trading-Strategy.md) | dca | dca_accumulation | 10m | generic | long_short | -/-/- | medium | 9 | SMA | pine |
+| [Dollar-Cost-Averaging-Strategy-with-Take-Profit](../../strategies/Dollar-Cost-Averaging-Strategy-with-Take-Profit.md) | dca | dca_accumulation | 1w | generic | long_only | SL/TP/- | low | 9 |  | pine |
+| [Dynamic-Cost-Averaging-Strategy-System-Based-on-Bollinger-Bands-and-RSI](../../strategies/Dynamic-Cost-Averaging-Strategy-System-Based-on-Bollinger-Bands-and-RSI.md) | mean_reversion | dca_accumulation | 1d | futures | long_short | -/TP/- | medium | 9 | SMA, RSI, Bollinger Bands, Std Dev / Z-Score | pine |
+| [Dynamic-DCA-based-Cryptocurrency-Quantitative-Trading-Strategy](../../strategies/Dynamic-DCA-based-Cryptocurrency-Quantitative-Trading-Strategy.md) | dca | dca_accumulation | 15m | crypto | long_only | -/TP/- | low | 9 |  | pine |
+| [Dynamic-Position-Building-Strategy](../../strategies/Dynamic-Position-Building-Strategy.md) | dca | dca_accumulation | 1h | generic | long_only | -/-/- | low | 9 | Session/Time | pine |
+| [Momentum-Bollinger-Bands-Dual-Moving-Average-DCA-Strategy](../../strategies/Momentum-Bollinger-Bands-Dual-Moving-Average-DCA-Strategy.md) | mean_reversion | dca_accumulation | 1d | stocks | long_short | -/-/- | high | 9 | SMA, RSI, Bollinger Bands, Std Dev / Z-Score | pine |
+| [Moving-Average-Oscillation-HODL-Strategy](../../strategies/Moving-Average-Oscillation-HODL-Strategy.md) | dca | dca_accumulation | 1d | generic | long_only | SL/-/- | low | 9 | EMA, SMA | pine |
+| [Simple-Holder-Strategy](../../strategies/Simple-Holder-Strategy.md) | dca | dca_accumulation | 1d | crypto | long_only | -/-/- | low | 9 | Session/Time | pine |
+| [50-Period-EMA-Crossover-with-Monthly-Dollar-Cost-Averaging-Dual-Optimization-Trend-Followi](../../strategies/50-Period-EMA-Crossover-with-Monthly-Dollar-Cost-Averaging-Dual-Optimization-Trend-Following-Strategy.md) | trend_following | dca_accumulation | 1d | generic | long_only | -/-/- | high | 8 | EMA | pine |
+| [Mean-Reversion-Bollinger-Band-Dollar-Cost-Averaging-Investment-Strategy](../../strategies/Mean-Reversion-Bollinger-Band-Dollar-Cost-Averaging-Investment-Strategy.md) | mean_reversion | dca_accumulation | 1d | generic | long_only | -/-/- | high | 8 | EMA, SMA, Bollinger Bands, Std Dev / Z-Score, Session/Time | pine |
+| [Dollar-Cost-Averaging-Strategy](../../strategies/Dollar-Cost-Averaging-Strategy.md) | dca | dca_accumulation | 1d | generic | long_short | -/-/- | low | 7 |  | pine |
+| [100USDT-Invested-Every-Week-Regular-Fixed-Investment](../../strategies/100USDT-Invested-Every-Week-Regular-Fixed-Investment.md) | dca | dca_accumulation |  | crypto | long_only | -/-/- | medium | 6 |  | python |
+| [Buy-Hold-Buy-and-Hold](../../strategies/Buy-Hold-Buy-and-Hold.md) | dca | dca_accumulation |  | generic | long_only | -/-/- | medium | 6 |  | javascript |

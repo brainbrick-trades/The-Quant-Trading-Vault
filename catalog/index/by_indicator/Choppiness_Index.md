@@ -1,0 +1,22 @@
+# Indicator: Choppiness Index
+
+14 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Adaptive-Multi-State-EMA-RSI-Momentum-Strategy-with-Choppiness-Index-Filter-System](../../strategies/Adaptive-Multi-State-EMA-RSI-Momentum-Strategy-with-Choppiness-Index-Filter-System.md) | momentum | intraday | 15m | generic | long_short | SL/TP/- | low | 10 | EMA / RSI / ATR / Choppiness Index | pine |
+| [ATR-and-Volatility-Index-Based-Trend-Tracking-Strategy](../../strategies/ATR-and-Volatility-Index-Based-Trend-Tracking-Strategy.md) | trend_following | intraday | 1d | indices | long_short | SL/TP/- | low | 10 | EMA / ATR / Renko / Choppiness Index / Highest/Lowest (channel) / Volume | pine |
+| [Choppiness-K-line-Breakthrough-Strategy](../../strategies/Choppiness-K-line-Breakthrough-Strategy.md) | breakout | intraday | 2h | stocks | long_short | SL/TP/- | low | 10 | CCI / ATR / Choppiness Index / Highest/Lowest (channel) / Volume / Session/Time | pine |
+| [MA-Trendline-Breakthrough-Strategy](../../strategies/MA-Trendline-Breakthrough-Strategy.md) | breakout | swing | 1d | generic | long_short | SL/TP/- | low | 10 | EMA / WMA / RSI / ATR / Choppiness Index / Highest/Lowest (channel) | pine |
+| [Multi-Indicator-Dynamic-Trend-Detection-and-Risk-Management-Trading-Strategy](../../strategies/Multi-Indicator-Dynamic-Trend-Detection-and-Risk-Management-Trading-Strategy.md) | trend_following | scalping | 5m | generic | long_short | SL/TP/- | medium | 10 | SMA / RSI / Stochastic / Choppiness Index / Highest/Lowest (channel) | pine |
+| [Multi-Timeframe-Momentum-Confluence-Automated-Trading-Strategy](../../strategies/Multi-Timeframe-Momentum-Confluence-Automated-Trading-Strategy.md) | momentum | scalping | 1m | commodities | long_short | SL/TP/- | medium | 10 | EMA / SMA / WMA / VWMA / RSI / Pivot Points / Choppiness Index / Highest/Lowest  | pine |
+| [Multi-timeframe-Quantitative-Trading-Strategy-Based-on-PSAR-MACD-and-RSI](../../strategies/Multi-timeframe-Quantitative-Trading-Strategy-Based-on-PSAR-MACD-and-RSI.md) | momentum | intraday | 1d | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / MACD / RSI / ATR / Parabolic SAR / Choppiness Index / Highest/Lowest | pine |
+| [Oscillating-Market-Long-Strategy](../../strategies/Oscillating-Market-Long-Strategy.md) | mean_reversion | intraday | 1d | generic | long_short | SL/-/- | medium | 10 | EMA / SMA / WMA / DEMA/TEMA / LSMA/LinReg / MACD / RSI / Stochastic / StochRSI / | pine |
+| [Zhukovs-Moving-Average-Crossover-Trend-Following-Strategy](../../strategies/Zhukovs-Moving-Average-Crossover-Trend-Following-Strategy.md) | trend_following | swing | 1d | generic | long_short | SL/TP/- | low | 10 | EMA / ATR / Supertrend / Choppiness Index | pine |
+| [Clear-Trend-Tracking-Strategy](../../strategies/Clear-Trend-Tracking-Strategy.md) | trend_following | swing | 1d | indices | long_short | -/-/- | high | 9 | EMA / SMA / WMA / VWMA / RSI / Stochastic / MFI / WaveTrend / Choppiness Index / | pine |
+| [A-Momentum-Breakout-Strategy](../../strategies/A-Momentum-Breakout-Strategy.md) | breakout | intraday | 1h | generic | long_short | -/-/- | high | 8 | EMA / Pivot Points / Choppiness Index | pine |
+| [Dynamic-Trend-Following-with-Volatility-Filtering-ADX-and-CI-Dual-Confirmed-Moving-Average](../../strategies/Dynamic-Trend-Following-with-Volatility-Filtering-ADX-and-CI-Dual-Confirmed-Moving-Average-Crossover-System.md) | trend_following | swing | 1d | generic | long_short | -/-/- | high | 8 | SMA / ADX/DMI / ATR / Choppiness Index | pine |
+| [Momentum-Trend-Strategy-440064](../../strategies/Momentum-Trend-Strategy-440064.md) | momentum | intraday |  | generic | long_short | -/-/- | high | 8 | EMA / SMA / T3 / MACD / RSI / TSI / Choppiness Index / Std Dev / Z-Score / Volum | pine |
+| [Liquidity-Driven-Trend-Strategy-A-Quant-Trading-Strategy-Based-on-Flow-Trend-Indication](../../strategies/Liquidity-Driven-Trend-Strategy-A-Quant-Trading-Strategy-Based-on-Flow-Trend-Indication.md) | trend_following | scalping | 5m | generic | long_short | -/-/- | very_high | 6 | RSI / Choppiness Index / Volume / Session/Time | pine |

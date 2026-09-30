@@ -1,0 +1,23 @@
+# Indicator: Ultimate Oscillator
+
+15 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Customizable-Ichimoku-Cloud-Trading-Strategy](../../strategies/Customizable-Ichimoku-Cloud-Trading-Strategy.md) | trend_following | intraday | 2h | generic | long_short | SL/TP/- | low | 10 | Donchian Channel / Ichimoku / Ultimate Oscillator / Highest/Lowest (channel) | pine |
+| [Dual-Momentum-Squeeze-Trading-System-SMIUBS-Indicator-Combination-Strategy](../../strategies/Dual-Momentum-Squeeze-Trading-System-SMIUBS-Indicator-Combination-Strategy.md) | momentum | intraday | 2h | generic | short_only | SL/TP/- | low | 10 | SMA / Ultimate Oscillator / Squeeze (TTM) / Highest/Lowest (channel) | pine |
+| [Long-Reversal-Strategy-Based-on-Ultimate-Oscillator](../../strategies/Long-Reversal-Strategy-Based-on-Ultimate-Oscillator.md) | mean_reversion | scalping | 5m | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / VWAP / Ultimate Oscillator | pine |
+| [Momentum-Pullback-Strategy-440057](../../strategies/Momentum-Pullback-Strategy-440057.md) | mean_reversion | swing | 15m | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / Ultimate Oscillator | pine |
+| [Multi-Dimensional-Technical-Indicator-Fusion-Trend-Breakthrough-Strategy](../../strategies/Multi-Dimensional-Technical-Indicator-Fusion-Trend-Breakthrough-Strategy.md) | breakout | intraday | 1h | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / ATR / Ultimate Oscillator / Highest/Lowest (channel) / Volume | pine |
+| [Multi-Timeframe-Moving-Average-Crossover-Optimization-Strategy](../../strategies/Multi-Timeframe-Moving-Average-Crossover-Optimization-Strategy.md) | trend_following | swing | 1d | generic | long_short | SL/-/TR | medium | 10 | EMA / SMA / WMA / HMA / VWMA / DEMA/TEMA / Ultimate Oscillator / Session/Time | pine |
+| [Multi-Timeframe-Stochastic-Oscillator-Trend-Following-Trading-Strategy](../../strategies/Multi-Timeframe-Stochastic-Oscillator-Trend-Following-Trading-Strategy.md) | trend_following | swing | 3h | commodities | long_short | SL/TP/TR | low | 10 | EMA / SMA / Stochastic / ATR / Ultimate Oscillator | pine |
+| [Profit-rate-theory-volatility-index-quantification-strategy](../../strategies/Profit-rate-theory-volatility-index-quantification-strategy.md) | volatility | position | 3h | indices | long_short | SL/TP/TR | low | 10 | EMA / SMA / HMA / VWMA / MACD / RSI / Stochastic / StochRSI / CCI / Williams %R  | pine |
+| [RSI-Oscillator-Turtle-Trading-Short-term-Strategy](../../strategies/RSI-Oscillator-Turtle-Trading-Short-term-Strategy.md) | breakout | intraday | 30m | generic | long_only | SL/TP/- | low | 10 | SMA / RSI / Ultimate Oscillator / Alligator/Williams | pine |
+| [Multi-Timeframe-Moving-Average-Trading-Strategy](../../strategies/Multi-Timeframe-Moving-Average-Trading-Strategy.md) | moving_average | intraday | 15m | generic | long_short | -/-/- | high | 9 | EMA / SMA / WMA / HMA / VWMA / DEMA/TEMA / Ultimate Oscillator / Session/Time | pine |
+| [Trend-Following-Strategy-Based-on-Moving-Average-Crossover-430022](../../strategies/Trend-Following-Strategy-Based-on-Moving-Average-Crossover-430022.md) | trend_following | scalping | 1m | stocks | long_short | -/-/- | very_high | 9 | EMA / SMA / WMA / VWMA / MACD / RSI / Stochastic / StochRSI / CCI / Williams %R  | pine |
+| [Ultimate-Balance-Oscillator-Trading-Strategy](../../strategies/Ultimate-Balance-Oscillator-Trading-Strategy.md) | momentum | swing | 1d | generic | long_only | -/-/- | high | 9 | SMA / RSI / CCI / Williams %R / ADX/DMI / Momentum/ROC / Ultimate Oscillator / H | pine |
+| [High-Frequency-Quantitative-Multi-Timeframe-Heatmap-Sniper-Strategy](../../strategies/High-Frequency-Quantitative-Multi-Timeframe-Heatmap-Sniper-Strategy.md) | scalping | hft | 1h | generic | long_short | -/-/- | very_high | 8 | SMA / Ultimate Oscillator / Highest/Lowest (channel) | pine |
+| [Multi-Period-RSI-Signal-Line-Crossover-Trend-Following-Strategy](../../strategies/Multi-Period-RSI-Signal-Line-Crossover-Trend-Following-Strategy.md) | trend_following | swing | 4h | generic | long_short | -/-/- | high | 8 | EMA / SMA / RSI / Ultimate Oscillator / Highest/Lowest (channel) | pine |
+| [Multi-Technical-Indicator-Synergistic-Trading-System](../../strategies/Multi-Technical-Indicator-Synergistic-Trading-System.md) | mean_reversion | intraday | 1d | generic | long_only | -/-/- | high | 8 | EMA / SMA / MACD / RSI / Bollinger Bands / Ultimate Oscillator / Std Dev / Z-Sco | pine |

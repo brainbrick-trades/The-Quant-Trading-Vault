@@ -1,0 +1,41 @@
+# Instrument: ETH
+
+33 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [AVMQTS-Adaptive-Volatility-and-Momentum-Quantitative-Trading-System-AVMQTS](../../strategies/AVMQTS-Adaptive-Volatility-and-Momentum-Quantitative-Trading-System-AVMQTS.md) | momentum | swing | 1d | crypto | long_short | SL/TP/- | low | 10 | SMA, MACD, ATR, Momentum/ROC | pine |
+| [BTC-and-ETH-Long-Trend-Strategy](../../strategies/BTC-and-ETH-Long-Trend-Strategy.md) | trend_following | intraday | 1h | crypto | long_only | SL/-/- | low | 10 | EMA, SMA, MACD, ATR | pine |
+| [Correlation-based-Bullish-Bearish-Crypto-Trading-Strategy-Based-on-Wall-Street-CCI-Index](../../strategies/Correlation-based-Bullish-Bearish-Crypto-Trading-Strategy-Based-on-Wall-Street-CCI-Index.md) | statistical | swing | 4h | crypto | long_short | SL/TP/- | low | 10 | WMA, CCI, Correlation, Session/Time | pine |
+| [Keltner-Channel-Trend-Based-Strategy](../../strategies/Keltner-Channel-Trend-Based-Strategy.md) | trend_following | intraday | 1h | crypto | long_only | SL/TP/TR | medium | 10 | EMA, SMA, ADX/DMI, Keltner Channel, Ma Ribbon | pine |
+| [Multi-factor-Moving-Average-Trend-Following-Strategy](../../strategies/Multi-factor-Moving-Average-Trend-Following-Strategy.md) | trend_following | intraday | 10m | crypto | long_only | SL/-/- | low | 10 | EMA, SMA, DEMA/TEMA, MACD, RSI, ATR | pine |
+| [Multi-Timeframe-Bitcoin-Binance-Coin-and-Ethereum-Pullback-Trading-Strategy](../../strategies/Multi-Timeframe-Bitcoin-Binance-Coin-and-Ethereum-Pullback-Trading-Strategy.md) | mean_reversion | intraday | 1h | crypto | long_only | SL/TP/- | low | 10 | SMA | pine |
+| [Positive-Channel-EMA-Trailing-Stop-Strategy](../../strategies/Positive-Channel-EMA-Trailing-Stop-Strategy.md) | moving_average | scalping | 1m | crypto | long_short | SL/TP/TR | medium | 10 | EMA, RSI, ATR, Heikin Ashi, Session/Time | pine |
+| [RSI-and-Supertrend-Trend-Following-Adaptive-Volatility-Strategy](../../strategies/RSI-and-Supertrend-Trend-Following-Adaptive-Volatility-Strategy.md) | trend_following | intraday | 15m | crypto | long_short | SL/TP/- | low | 10 | RSI, ATR, Supertrend | pine |
+| [Solid-Trend-Following-Strategy](../../strategies/Solid-Trend-Following-Strategy.md) | trend_following | intraday | 1h | crypto | long_short | SL/TP/TR | low | 10 | EMA, SMA, WMA, HMA, DEMA/TEMA, LSMA/LinReg, RSI, ADX/DMI… | pine |
+| [SuperTrend-Strategy-for-Ethereum-Trading](../../strategies/SuperTrend-Strategy-for-Ethereum-Trading.md) | trend_following | swing | 1d | crypto | long_short | SL/-/- | medium | 10 | ATR, Supertrend, Highest/Lowest (channel), Session/Time | pine |
+| [Trend-Strategy-V10-Public](../../strategies/Trend-Strategy-V10-Public.md) | trend_following |  |  | crypto | unknown | SL/TP/TR | low | 10 | EMA, Std Dev / Z-Score | javascript |
+| [Advanced-Quantitative-Trading-Strategy-Multi-Dimensional-Super-Trend-ATR-Dynamic-Tracking-](../../strategies/Advanced-Quantitative-Trading-Strategy-Multi-Dimensional-Super-Trend-ATR-Dynamic-Tracking-System.md) | trend_following | intraday | 1h | crypto | long_short | SL/-/- | medium | 9 | SMA, MACD, RSI, ADX/DMI, ATR, Supertrend… | pine |
+| [ADX-Based-One-Hour-TENKAN-KIJUN-Cross-Trend-Tracking-Strategy](../../strategies/ADX-Based-One-Hour-TENKAN-KIJUN-Cross-Trend-Tracking-Strategy.md) | trend_following | position | 1h | crypto | long_short | -/-/- | high | 9 | ADX/DMI, Donchian Channel, Ichimoku… | pine |
+| [Bitcoin-Futures-Position-Trading-Strategy](../../strategies/Bitcoin-Futures-Position-Trading-Strategy.md) | smart_money_concepts | position | 1h | crypto | long_short | SL/-/- | medium | 9 | MACD, RSI | pine |
+| [Ichimoku-Kinko-Hyo-indicator-Balancing-Trend-Strategy](../../strategies/Ichimoku-Kinko-Hyo-indicator-Balancing-Trend-Strategy.md) | trend_following | swing | 3h | crypto | long_short | -/-/- | high | 9 | SMA, RSI, Ichimoku, Momentum/ROC, Highest/Lowest (channel) | pine |
+| [London-SMA-Cross-ETH-Reversal-Trading-Strategy](../../strategies/London-SMA-Cross-ETH-Reversal-Trading-Strategy.md) | seasonality_time | intraday | 1d | crypto | long_short | -/-/- | high | 9 | SMA, Session/Time | pine |
+| [MACD-Oscillator-with-EMA-Crossover-Strategy](../../strategies/MACD-Oscillator-with-EMA-Crossover-Strategy.md) | momentum | swing | 4h | crypto | short_only | -/-/- | medium | 9 | EMA, SMA, MACD, Heikin Ashi, Session/Time | pine |
+| [Momentum-Trend-Following-Strategy-444336](../../strategies/Momentum-Trend-Following-Strategy-444336.md) | trend_following | swing | 1d | crypto | long_short | -/-/- | very_high | 9 | Aroon | pine |
+| [MoonFlag-MACD-Momentum-StochRSI-Trading-Strategy](../../strategies/MoonFlag-MACD-Momentum-StochRSI-Trading-Strategy.md) | momentum | intraday | 1d | crypto | long_short | -/-/- | high | 9 | EMA, SMA, WMA, MACD, RSI, Stochastic, StochRSI… | pine |
+| [Adaptive-Oscillation-Trend-Trading-Strategy-with-Bollinger-Bands-and-RSI-Integration](../../strategies/Adaptive-Oscillation-Trend-Trading-Strategy-with-Bollinger-Bands-and-RSI-Integration.md) | mean_reversion | swing | 3h | crypto | long_short | -/-/- | medium | 8 | SMA, MACD, RSI, Bollinger Bands, Std Dev / Z-Score | pine |
+| [Bull-and-Bear-Small-Shop-Strategy-V10-OKEx-Contract](../../strategies/Bull-and-Bear-Small-Shop-Strategy-V10-OKEx-Contract.md) | moving_average | position | 1d | crypto | long_short | -/-/- | high | 8 | Highest/Lowest (channel) | javascript |
+| [EMA-Assisted-Extreme-Point-Reversal-Trading-Strategy](../../strategies/EMA-Assisted-Extreme-Point-Reversal-Trading-Strategy.md) | mean_reversion | scalping | 5m | crypto | long_short | -/-/- | high | 8 | EMA, RSI, CCI | pine |
+| [MACD-Crossover-and-Momentum-Trend-Intelligent-Trading-System](../../strategies/MACD-Crossover-and-Momentum-Trend-Intelligent-Trading-System.md) | momentum | intraday | 2h | crypto | long_only | -/-/- | high | 8 | EMA, MACD | pine |
+| [Multi-Indicator-Dynamic-Equilibrium-Quantitative-Trading-System](../../strategies/Multi-Indicator-Dynamic-Equilibrium-Quantitative-Trading-System.md) | mean_reversion | swing | 1d | crypto | long_only | -/-/- | high | 8 | EMA, SMA, MACD, RSI, Bollinger Bands, Std Dev / Z-Score | pine |
+| [Multi-Indicator-Synergistic-EMA-Crossover-Quantitative-Strategy](../../strategies/Multi-Indicator-Synergistic-EMA-Crossover-Quantitative-Strategy.md) | trend_following | intraday | 5m | crypto | long_short | -/-/- | high | 8 | EMA, SMA, RSI, ATR, Volume | pine |
+| [Price-and-Volume-Breakout-Buy-Strategy](../../strategies/Price-and-Volume-Breakout-Buy-Strategy.md) | breakout | position | 1d | crypto | long_short | -/-/- | high | 8 | SMA, Highest/Lowest (channel), Volume | pine |
+| [Single-Commodity-Small-Shop-Strategy-V20-Annualized-130](../../strategies/Single-Commodity-Small-Shop-Strategy-V20-Annualized-130.md) | grid | intraday | 30m | commodities | long_short | -/-/- | high | 8 | Bollinger Bands, Highest/Lowest (channel) | javascript |
+| [William-Alligator-Moving-Average-Trend-Catcher-Strategy](../../strategies/William-Alligator-Moving-Average-Trend-Catcher-Strategy.md) | moving_average | scalping | 5m | crypto | long_short | -/-/- | very_high | 8 | EMA, SMA, Alligator/Williams | pine |
+| [Hedge_BTC-ETH-Demo](../../strategies/Hedge_BTC-ETH-Demo.md) | hedging |  |  | crypto | long_short | -/-/- | medium | 7 | SMA | javascript |
+| [Iceberg-Commissioned-Purchase-Jason](../../strategies/Iceberg-Commissioned-Purchase-Jason.md) | market_making |  |  | crypto | long_only | -/-/- | medium | 7 | Volume | python |
+| [Index-Balance-Bot](../../strategies/Index-Balance-Bot.md) | signal_bot_execution |  |  | crypto | long_short | -/-/- | high | 7 |  | javascript |
+| [OKEx-Futures-Hedging](../../strategies/OKEx-Futures-Hedging.md) | hedging |  |  | crypto | long_short | -/TP/- | low | 7 |  | javascript |
+| [RSI-Statistical-Arbitrage-Strategy](../../strategies/RSI-Statistical-Arbitrage-Strategy.md) | arbitrage | position |  | crypto | long_short | SL/-/- | low | 7 | RSI, ATR, Highest/Lowest (channel) | javascript |

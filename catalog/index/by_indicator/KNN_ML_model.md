@@ -1,0 +1,26 @@
+# Indicator: KNN / ML model
+
+18 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Dynamic-Neural-RSI-Trend-Following-Trading-Strategy](../../strategies/Dynamic-Neural-RSI-Trend-Following-Trading-Strategy.md) | trend_following | intraday | 15m | generic | long_only | SL/-/TR | medium | 10 | SMA / RSI / KNN / ML model | pine |
+| [kNN-based-Trend-Following-Strategy](../../strategies/kNN-based-Trend-Following-Strategy.md) | machine_learning | intraday | 1h | generic | long_short | SL/-/- | low | 10 | EMA / SMA / WMA / HMA / VWMA / ALMA / RSI / CCI / ATR / VWAP / Momentum/ROC / Hi | pine |
+| [KRK-ADA-1H-Stochastic-Slow-Strategy-with-More-Entries-and-AI](../../strategies/KRK-ADA-1H-Stochastic-Slow-Strategy-with-More-Entries-and-AI.md) | machine_learning | intraday | 1h | crypto | long_short | SL/TP/- | low | 10 | SMA / RSI / Stochastic / KNN / ML model | pine |
+| [Multi-Period-Trend-Confirmation-Dynamic-Risk-Control-Quantitative-Trading-Strategy](../../strategies/Multi-Period-Trend-Confirmation-Dynamic-Risk-Control-Quantitative-Trading-Strategy.md) | trend_following | swing | 4h | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / RSI / ADX/DMI / ATR / VWAP / Fibonacci / Std Dev / Z-Score / Volume  | pine |
+| [Neural-Network-Super-Trend-Strategy](../../strategies/Neural-Network-Super-Trend-Strategy.md) | trend_following | intraday | 2h | generic | long_short | SL/-/- | medium | 10 | MACD / RSI / Bollinger Bands / Supertrend / Volume / Session/Time / KNN / ML mod | pine |
+| [Quantum-Precision-Multi-Indicator-Trend-Crossover-Trading-Strategy](../../strategies/Quantum-Precision-Multi-Indicator-Trend-Crossover-Trading-Strategy.md) | trend_following | intraday | 1h | forex | long_short | SL/TP/- | low | 10 | EMA / SMA / LSMA/LinReg / ATR / Momentum/ROC / Std Dev / Z-Score / Correlation / | pine |
+| [SuperTrend-RSI-EMA-Crossover-Strategy](../../strategies/SuperTrend-RSI-EMA-Crossover-Strategy.md) | trend_following | intraday | 1h | generic | long_only | SL/TP/- | low | 10 | EMA / RSI / ATR / Supertrend / KNN / ML model | pine |
+| [Trend-Trading-Strategy-Based-on-Golden-Cross](../../strategies/Trend-Trading-Strategy-Based-on-Golden-Cross.md) | trend_following | position | 30m | stocks | long_short | SL/TP/- | low | 10 | SMA / WMA / LSMA/LinReg / ATR / Std Dev / Z-Score / Correlation / Highest/Lowest | pine |
+| [ANN-based-Quantitative-Trading-Strategy](../../strategies/ANN-based-Quantitative-Trading-Strategy.md) | multi_timeframe | position | 1h | generic | long_short | -/-/- | medium | 9 | Volume Delta/CVD / KNN / ML model | pine |
+| [Dual-Timeframe-Neural-Network-Strategy](../../strategies/Dual-Timeframe-Neural-Network-Strategy.md) | machine_learning | intraday | 1h | generic | long_short | -/-/- | high | 9 | KNN / ML model | pine |
+| [PresentTrend-Trend-Following-Strategy](../../strategies/PresentTrend-Trend-Following-Strategy.md) | trend_following | intraday | 2h | generic | long_only | -/-/- | high | 9 | SMA / RSI / MFI / ATR / KNN / ML model | pine |
+| [This-is-an-experimental-quantitative-trading-strategy](../../strategies/This-is-an-experimental-quantitative-trading-strategy.md) | machine_learning | intraday | 1h | generic | long_short | -/-/- | high | 9 | VWMA / MFI / ADX/DMI / Volume / KNN / ML model | pine |
+| [KNN-Based-Adaptive-Parametric-Trend-Following-Strategy](../../strategies/KNN-Based-Adaptive-Parametric-Trend-Following-Strategy.md) | machine_learning | intraday | 1h | generic | long_short | -/-/- | high | 8 | SMA / KNN / ML model | pine |
+| [KNN-Machine-Learning-Strategy-Trend-Prediction-Trading-System-Based-on-K-Nearest-Neighbors](../../strategies/KNN-Machine-Learning-Strategy-Trend-Prediction-Trading-System-Based-on-K-Nearest-Neighbors-Algorithm.md) | machine_learning | swing | 1d | generic | long_short | -/-/- | high | 8 | EMA / SMA / WMA / HMA / T3 / ATR / VWAP / KNN / ML model | pine |
+| [Multi-Dimensional-KNN-Algorithm-with-Volume-Price-Candlestick-Pattern-Trading-Strategy](../../strategies/Multi-Dimensional-KNN-Algorithm-with-Volume-Price-Candlestick-Pattern-Trading-Strategy.md) | candlestick_pattern | position | 2d | generic | long_short | -/-/- | high | 8 | SMA / Std Dev / Z-Score / Volume / Candlestick Patterns / KNN / ML model | pine |
+| [Neural-Moving-Average-Crossover-Trend-Following-Strategy-with-EMA-Filtering-System](../../strategies/Neural-Moving-Average-Crossover-Trend-Following-Strategy-with-EMA-Filtering-System.md) | trend_following | intraday | 1h | generic | long_short | -/-/- | high | 8 | EMA / SMA / KNN / ML model | pine |
+| [Python-Machine-Learning-SVM-Predicting-Buying-and-Selling](../../strategies/Python-Machine-Learning-SVM-Predicting-Buying-and-Selling.md) | machine_learning |  |  | generic | long_short | -/-/- | high | 7 | Kalman Filter / KNN / ML model | python |
+| [Trend-Strategy-Based-on-Random-Forest](../../strategies/Trend-Strategy-Based-on-Random-Forest.md) | machine_learning |  |  | generic | long_short | -/-/- | high | 5 | KNN / ML model | python |

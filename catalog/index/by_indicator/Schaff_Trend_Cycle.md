@@ -1,0 +1,21 @@
+# Indicator: Schaff Trend Cycle
+
+13 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [EMA-Tracking-Trend-Suppressing-Oscillation-Strategy](../../strategies/EMA-Tracking-Trend-Suppressing-Oscillation-Strategy.md) | mean_reversion | hft | 1d | generic | long_short | SL/TP/- | medium | 10 | EMA / WMA / ATR / Schaff Trend Cycle / Highest/Lowest (channel) | pine |
+| [Multi-indicator-Strategy-to-Identify-Trading-Inflection-Points-in-Quant-Trading](../../strategies/Multi-indicator-Strategy-to-Identify-Trading-Inflection-Points-in-Quant-Trading.md) | momentum | intraday | 1h | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / MACD / Stochastic / Bollinger Bands / VWAP / Aroon / Schaff Trend Cy | pine |
+| [Multi-Technical-Indicator-Gold-Real-Time-Movement-Detection-and-Risk-Management-Strategy](../../strategies/Multi-Technical-Indicator-Gold-Real-Time-Movement-Detection-and-Risk-Management-Strategy.md) | candlestick_pattern | intraday | 1m | commodities | long_short | SL/TP/TR | low | 10 | EMA / SMA / WMA / HMA / VWMA / MACD / Stochastic / ATR / Supertrend / Heikin Ash | pine |
+| [Quantitative-Trading-Strategy-Based-on-Double-Trend-Filter](../../strategies/Quantitative-Trading-Strategy-Based-on-Double-Trend-Filter.md) | trend_following | intraday | 1h | commodities | long_only | SL/TP/- | low | 10 | EMA / SMA / MACD / RSI / Stochastic / StochRSI / MFI / Heikin Ashi / WaveTrend / | pine |
+| [Schaff-Trend-Cycle-with-Double-Moving-Average-Crossover-Strategy](../../strategies/Schaff-Trend-Cycle-with-Double-Moving-Average-Crossover-Strategy.md) | trend_following | swing | 3h | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / MACD / Stochastic / Schaff Trend Cycle | pine |
+| [STC-MA-ATR-Integrated-Trend-Trading-Strategy](../../strategies/STC-MA-ATR-Integrated-Trend-Trading-Strategy.md) | trend_following | swing | 4h | generic | long_short | SL/TP/TR | low | 10 | EMA / SMA / ATR / Schaff Trend Cycle / Highest/Lowest (channel) | pine |
+| [Trend-and-Moving-Average-Crossover-Based-Multi-Functional-Algorithmic-Trading-Strategy](../../strategies/Trend-and-Moving-Average-Crossover-Based-Multi-Functional-Algorithmic-Trading-Strategy.md) | trend_following | swing | 1d | generic | long_short | -/TP/TR | medium | 10 | EMA / SMA / ATR / Pivot Points / Schaff Trend Cycle / Highest/Lowest (channel) | pine |
+| [Trend-Following-Strategy-Based-on-Hull-MA-and-STC-Indicator](../../strategies/Trend-Following-Strategy-Based-on-Hull-MA-and-STC-Indicator.md) | trend_following | intraday | 1h | generic | long_only | SL/TP/TR | medium | 10 | EMA / WMA / HMA / MACD / ATR / Heikin Ashi / Schaff Trend Cycle / Highest/Lowest | pine |
+| [Cryptocurrency-Trading-Strategy-Based-on-MACD-and-Stochastic-Indicators](../../strategies/Cryptocurrency-Trading-Strategy-Based-on-MACD-and-Stochastic-Indicators.md) | momentum | intraday | 1h | crypto | long_short | -/-/- | high | 9 | EMA / MACD / Stochastic / Schaff Trend Cycle / Highest/Lowest (channel) | pine |
+| [Market-Cypher-Wave-B-Automated-Trading-Strategy](../../strategies/Market-Cypher-Wave-B-Automated-Trading-Strategy.md) | mean_reversion | intraday | 1h | commodities | long_short | SL/TP/TR | medium | 9 | EMA / SMA / MACD / RSI / Stochastic / StochRSI / MFI / VWAP / Heikin Ashi / Wave | pine |
+| [Schaff-Trend-Cycle-Momentum-Following-Strategy](../../strategies/Schaff-Trend-Cycle-Momentum-Following-Strategy.md) | momentum | intraday | 1h | crypto | long_short | -/-/- | high | 9 | EMA / WMA / MACD / RSI / Stochastic / StochRSI / Schaff Trend Cycle | pine |
+| [WaveTrend-and-DER-Based-Swing-Trading-Strategy](../../strategies/WaveTrend-and-DER-Based-Swing-Trading-Strategy.md) | mean_reversion | swing | 1d | commodities | long_short | -/-/- | very_high | 7 | EMA / SMA / WMA / MACD / RSI / Stochastic / StochRSI / MFI / ADX/DMI / VWAP / He | pine |
+| [VuManChu-Cipher-B-Divergences-Strategy](../../strategies/VuManChu-Cipher-B-Divergences-Strategy.md) | mean_reversion | intraday | 2h | commodities | long_short | -/-/- | very_high | 6 | EMA / SMA / WMA / MACD / RSI / Stochastic / StochRSI / MFI / ADX/DMI / VWAP / He | pine |

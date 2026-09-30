@@ -136,3 +136,19 @@ Contributions to fix parameters, improve documentation, or add new research stra
 ## 📄 License
 
 This repository is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🗂️ Strategy Catalog Database (`catalog/`)
+
+Every file in `strategies/` is parsed and classified into a flat CSV database plus browsable Markdown indexes:
+
+| File | What it is |
+| :--- | :--- |
+| [`catalog/strategies_db.csv`](catalog/strategies_db.csv) | 5,806 rows × 100 columns: family, tags, style, timeframe, asset class, instruments, direction, indicators, SL/TP/trailing, sizing, leverage, risk level, repaint risk, complexity, buildability score, claimed KPIs, backtest header, Pine `strategy()` params, text excerpts |
+| [`catalog/INDEX.md`](catalog/INDEX.md) | Navigation hub: counts and links per family, tag, style, timeframe, asset, instrument, indicator, risk, exit method, author, year |
+| [`catalog/SCHEMA.md`](catalog/SCHEMA.md) | Column-by-column definitions |
+| [`catalog/query.py`](catalog/query.py) | CLI filter over the CSV (`python catalog/query.py --family breakout --tf 15m --min-build 9`) |
+| [`catalog/build_catalog.py`](catalog/build_catalog.py) | Rebuilds everything (`python catalog/build_catalog.py`, ~90 s) |
+
+Classification is rule-based (keyword + source-code analysis). Treat tags as strong hints, and treat claimed performance numbers as unverified author statements.

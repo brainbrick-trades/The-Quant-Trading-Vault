@@ -1,0 +1,25 @@
+# Indicator: Elliott Wave
+
+17 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [ATR-Trailing-Stop-Bands-Strategy](../../strategies/ATR-Trailing-Stop-Bands-Strategy.md) | volatility | swing | 1d | indices | long_short | SL/-/TR | medium | 10 | SMA / ATR / Bollinger Bands / Highest/Lowest (channel) / Elliott Wave | pine |
+| [Dual-EMA-Williams-Indicator-Trend-Tracking-Strategy](../../strategies/Dual-EMA-Williams-Indicator-Trend-Tracking-Strategy.md) | oscillator | intraday | 1h | crypto | unknown | SL/TP/- | low | 10 | EMA / RSI / Williams %R / ATR / Elliott Wave / KNN / ML model / Fractals | pine |
+| [Dual-Moving-Average-Crossover-Strategy-437640](../../strategies/Dual-Moving-Average-Crossover-Strategy-437640.md) | trend_following | position | 1mo | indices | long_short | SL/-/- | medium | 10 | SMA / ATR / Keltner Channel / Volume / Elliott Wave | pine |
+| [Dynamic-Multi-indicator-Quantitative-Trading-Strategy](../../strategies/Dynamic-Multi-indicator-Quantitative-Trading-Strategy.md) | trend_following | position | 1d | indices | long_short | SL/TP/- | low | 10 | EMA / SMA / KAMA / RSI / ADX/DMI / ATR / VWAP / Range Filter / Correlation / Vol | pine |
+| [Elliott-Wave-and-Tom-DeMark-Trend-Following-Trading-Strategy](../../strategies/Elliott-Wave-and-Tom-DeMark-Trend-Following-Trading-Strategy.md) | chart_pattern | position | 1mo | futures | long_short | SL/TP/- | low | 10 | EMA / ATR / Fibonacci / WaveTrend / Volume / Elliott Wave / Session/Time | pine |
+| [Elliott-Wave-Stochastic-EMA-Strategy-Elliott](../../strategies/Elliott-Wave-Stochastic-EMA-Strategy-Elliott.md) | oscillator | intraday | 3h | indices | long_short | SL/-/TR | low | 10 | EMA / SMA / RSI / Stochastic / ATR / Elliott Wave | pine |
+| [Elliott-Wave-Theory-4-9-Impulse-Wave-Automatic-Detection-Trading-Strategy](../../strategies/Elliott-Wave-Theory-4-9-Impulse-Wave-Automatic-Detection-Trading-Strategy.md) | momentum | swing | 1d | indices | long_short | SL/-/TR | low | 10 | MACD / Elliott Wave | pine |
+| [High-Low-Cryptocurrency-Strategy-Based-on-Multiple-Indicators](../../strategies/High-Low-Cryptocurrency-Strategy-Based-on-Multiple-Indicators.md) | volatility | intraday | 1h | crypto | unknown | SL/TP/- | low | 10 | EMA / SMA / MACD / CCI / ATR / Parabolic SAR / Elliott Wave | pine |
+| [Moving-Average-Crossover-System](../../strategies/Moving-Average-Crossover-System.md) | trend_following | intraday | 1h | crypto | long_short | SL/-/- | high | 10 | EMA / SMA / WMA / Elliott Wave | pine |
+| [Multi-Timeframe-Trend-Confirmed-Quantitative-Breakout-Trading-Strategy](../../strategies/Multi-Timeframe-Trend-Confirmed-Quantitative-Breakout-Trading-Strategy.md) | breakout | position | 1h | crypto | long_short | SL/TP/TR | low | 10 | EMA / SMA / MACD / RSI / OBV / ADX/DMI / ATR / Supertrend / KST / Correlation /  | pine |
+| [Quadratic-Momentum-Double-Indicators-Timing-Strategy](../../strategies/Quadratic-Momentum-Double-Indicators-Timing-Strategy.md) | momentum | scalping | 5m | indices | long_short | SL/-/- | high | 10 | ATR / Supertrend / Elliott Wave | pine |
+| [Short-term-Down-Trend-Strategy-Based-on-EMA-and-Adaptive-Fibonacci-Retracement](../../strategies/Short-term-Down-Trend-Strategy-Based-on-EMA-and-Adaptive-Fibonacci-Retracement.md) | trend_following | hft | 1h | indices | short_only | SL/TP/- | high | 10 | EMA / Fibonacci / Aroon / Highest/Lowest (channel) / Volume / Elliott Wave | pine |
+| [SuperTrend-Basic-Strategy](../../strategies/SuperTrend-Basic-Strategy.md) | trend_following | intraday | 2h | indices | long_only | SL/TP/TR | low | 10 | EMA / MACD / RSI / ATR / Supertrend / Elliott Wave | pine |
+| [Trend-Following-Strategy-Based-on-Volume-weighted-Average-Price-and-Volatility](../../strategies/Trend-Following-Strategy-Based-on-Volume-weighted-Average-Price-and-Volatility.md) | volume | swing | 1d | crypto | long_only | SL/TP/TR | high | 10 | EMA / SMA / Bollinger Bands / Ichimoku / VWAP / Std Dev / Z-Score / Highest/Lowe | pine |
+| [Trend-Tracking-Strategy-Based-on-Dual-Vortex-Indicator-Combined-with-True-Strength-Index](../../strategies/Trend-Tracking-Strategy-Based-on-Dual-Vortex-Indicator-Combined-with-True-Strength-Index.md) | momentum | position | 1h | indices | long_short | SL/-/TR | low | 10 | EMA / ATR / TSI / Vortex / Elliott Wave | pine |
+| [Reverse-Momentum-Trading-Strategy](../../strategies/Reverse-Momentum-Trading-Strategy.md) | momentum | intraday | 1h | indices | long_short | -/-/- | high | 9 | EMA / MACD / Elliott Wave | pine |
+| [Elliott-Wave-Strategy-with-200-Day-Moving-Average](../../strategies/Elliott-Wave-Strategy-with-200-Day-Moving-Average.md) | chart_pattern | position | 4h | indices | long_short | -/-/- | medium | 8 | SMA / MACD / KDJ / Volume / Elliott Wave | pine |

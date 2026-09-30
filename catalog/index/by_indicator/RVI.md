@@ -1,0 +1,28 @@
+# Indicator: RVI
+
+20 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Bitcoin-Trading-Strategy-Based-on-RVI-and-EMA](../../strategies/Bitcoin-Trading-Strategy-Based-on-RVI-and-EMA.md) | mean_reversion | intraday | 1h | crypto | long_short | SL/TP/- | low | 10 | EMA / ATR / RVI | pine |
+| [Consecutive-Candlestick-Reversal-Strategy](../../strategies/Consecutive-Candlestick-Reversal-Strategy.md) | mean_reversion | intraday | 3d | generic | long_short | SL/-/- | medium | 10 | RVI / Session/Time | pine |
+| [Cryptocurrency-RSI-Curve-Tracking-Strategy](../../strategies/Cryptocurrency-RSI-Curve-Tracking-Strategy.md) | oscillator | intraday | 1h | crypto | unknown | SL/TP/- | medium | 10 | RSI / Std Dev / Z-Score / Volume / RVI | pine |
+| [Dual-MACD-Reversal-Trading-Strategy](../../strategies/Dual-MACD-Reversal-Trading-Strategy.md) | momentum | intraday | 6h | generic | long_only | SL/-/- | medium | 10 | EMA / SMA / MACD / CCI / Volume / Volume Delta/CVD / RVI / Harmonic Patterns | pine |
+| [Ehlers-Fisher-Stochastic-Relative-Vigor-Index-Strategy](../../strategies/Ehlers-Fisher-Stochastic-Relative-Vigor-Index-Strategy.md) | momentum | swing | 1d | stocks | long_short | SL/-/TR | high | 10 | Stochastic / Fisher Transform / RVI / Ehlers Filters | pine |
+| [Growth-Producer-Dual-RSI-Trend-Following-Strategy](../../strategies/Growth-Producer-Dual-RSI-Trend-Following-Strategy.md) | trend_following | scalping | 1m | generic | long_short | SL/TP/- | high | 10 | EMA / SMA / RSI / MFI / ATR / VWAP / Std Dev / Z-Score / Volume / RVI / Ma Ribbo | pine |
+| [MACD-Bollinger-Turtle-Trading-Strategy](../../strategies/MACD-Bollinger-Turtle-Trading-Strategy.md) | mean_reversion | swing | 1d | generic | long_short | -/-/TR | high | 10 | EMA / SMA / WMA / VWMA / MACD / RSI / CCI / Williams %R / MFI / Bollinger Bands  | pine |
+| [Momentum-Breakout-Trading-Strategy-Based-on-Price-Breakout-and-Mean-Reversion](../../strategies/Momentum-Breakout-Trading-Strategy-Based-on-Price-Breakout-and-Mean-Reversion.md) | breakout | intraday | 1d | generic | long_short | SL/TP/- | low | 10 | EMA / SMA / WMA / HMA / ATR / Highest/Lowest (channel) / RVI | pine |
+| [Multi-Indicator-Cross-Trend-Tracking-and-Volume-Price-Combined-Adaptive-Trading-Strategy](../../strategies/Multi-Indicator-Cross-Trend-Tracking-and-Volume-Price-Combined-Adaptive-Trading-Strategy.md) | momentum | swing | 1d | crypto | long_short | SL/-/TR | medium | 10 | EMA / SMA / MACD / RSI / Volume / RVI | pine |
+| [Multi-Indicator-Crossover-Dynamic-Strategy-System-A-Quantitative-Trading-Model-Based-on-EM](../../strategies/Multi-Indicator-Crossover-Dynamic-Strategy-System-A-Quantitative-Trading-Model-Based-on-EMA-RVI-and-Trading-Signals.md) | trend_following | scalping | 3m | commodities | long_short | SL/TP/- | low | 10 | EMA / ATR / RVI | pine |
+| [Multi-Indicator-Integration-and-Intelligent-Risk-Control-Quantitative-Trading-System](../../strategies/Multi-Indicator-Integration-and-Intelligent-Risk-Control-Quantitative-Trading-System.md) | machine_learning | intraday | 1h | commodities | long_short | SL/TP/- | low | 10 | EMA / RVI | pine |
+| [Trending-Darvas-Box-Quantitative-Trading-Strategy](../../strategies/Trending-Darvas-Box-Quantitative-Trading-Strategy.md) | breakout | intraday | 1d | generic | long_short | SL/-/- | high | 10 | WMA / Highest/Lowest (channel) / RVI | pine |
+| [Triple-Moving-Average-Combined-with-MACD-Quantitative-Strategy](../../strategies/Triple-Moving-Average-Combined-with-MACD-Quantitative-Strategy.md) | momentum | position | 1d | generic | long_short | -/-/TR | very_high | 10 | EMA / SMA / WMA / VWMA / DEMA/TEMA / MACD / RSI / CCI / Williams %R / MFI / Kelt | pine |
+| [Inertia-Indicator-Trading-Strategy](../../strategies/Inertia-Indicator-Trading-Strategy.md) | volatility | intraday | 1h | generic | long_short | -/-/- | high | 9 | EMA / Std Dev / Z-Score / RVI | pine |
+| [Momentum-Strategy-Based-on-Double-Bottom-Breakout-Model](../../strategies/Momentum-Strategy-Based-on-Double-Bottom-Breakout-Model.md) | chart_pattern | intraday | 15m | crypto | long_only | -/-/- | high | 9 | EMA / SMA / ALMA / RSI / MFI / Supertrend / Parabolic SAR / Std Dev / Z-Score /  | pine |
+| [Quantitative-Dual-Factor-Reversal-Inertia-Trading-Strategy](../../strategies/Quantitative-Dual-Factor-Reversal-Inertia-Trading-Strategy.md) | mean_reversion | position | 1h | generic | long_short | -/-/- | high | 9 | EMA / SMA / Stochastic / Std Dev / Z-Score / RVI | pine |
+| [Relative-Volatility-Index-Backtesting-Strategy](../../strategies/Relative-Volatility-Index-Backtesting-Strategy.md) | volatility | swing | 4h | indices | long_short | -/-/- | high | 9 | EMA / RSI / Std Dev / Z-Score / RVI | pine |
+| [Renko-and-Relative-Vigor-Index-Trend-Following-Strategy](../../strategies/Renko-and-Relative-Vigor-Index-Trend-Following-Strategy.md) | renko_range_bars | swing | 1d | indices | long_only | -/-/- | high | 9 | SMA / ATR / Renko / RVI | pine |
+| [Stochastic-RSI-Strategy-for-Cryptocurrency-Trading](../../strategies/Stochastic-RSI-Strategy-for-Cryptocurrency-Trading.md) | mean_reversion | intraday | 1d | crypto | long_short | -/-/- | high | 9 | SMA / RSI / Stochastic / StochRSI / KDJ / Momentum/ROC / RVI | pine |
+| [Combo-Backtest-123-Reversal-Relative-Volatility-Index](../../strategies/Combo-Backtest-123-Reversal-Relative-Volatility-Index.md) | mean_reversion | intraday | 30m | indices | long_short | -/-/- | medium | 8 | SMA / Stochastic / Std Dev / Z-Score / RVI | pine |

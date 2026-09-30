@@ -1,0 +1,26 @@
+# Strategy tag: news_sentiment
+
+18 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Dynamic-Stop-Loss-and-Take-Profit-Dual-Moving-Average-Trend-Following-Strategy-with-Candle](../../strategies/Dynamic-Stop-Loss-and-Take-Profit-Dual-Moving-Average-Trend-Following-Strategy-with-Candlestick-Reactions.md) | candlestick_pattern | intraday | 4h | commodities | long_short | SL/TP/- | low | 10 | SMA, RSI, Candlestick Patterns | pine |
+| [Market-Sentiment-Based-Ichimoku-Breakout-Strategy](../../strategies/Market-Sentiment-Based-Ichimoku-Breakout-Strategy.md) | trend_following | swing | 3h | generic | long_only | SL/TP/TR | low | 10 | ATR, Donchian Channel, Ichimoku… | pine |
+| [Multi-timeframe-Bollinger-Bands-Crypto-Strategy](../../strategies/Multi-timeframe-Bollinger-Bands-Crypto-Strategy.md) | mean_reversion | swing | 5m | crypto | long_short | SL/TP/- | low | 10 | EMA, SMA, WMA, VWMA, Bollinger Bands, Std Dev / Z-Score… | pine |
+| [Open-Close-Cross-Moving-Average-Trend-Following-Strategy](../../strategies/Open-Close-Cross-Moving-Average-Trend-Following-Strategy.md) | trend_following | swing | 1d | generic | long_short | SL/-/TR | medium | 10 | EMA, SMA, WMA, HMA, VWMA, DEMA/TEMA, ALMA, LSMA/LinReg, ATR | pine |
+| [Quantum-Precision-Multi-Indicator-Trend-Crossover-Trading-Strategy](../../strategies/Quantum-Precision-Multi-Indicator-Trend-Crossover-Trading-Strategy.md) | trend_following | intraday | 1h | forex | long_short | SL/TP/- | low | 10 | EMA, SMA, LSMA/LinReg, ATR, Momentum/ROC… | pine |
+| [The-Support-Resistance-Psychology-Candlestick-Feedback-Money-Management-strategy](../../strategies/The-Support-Resistance-Psychology-Candlestick-Feedback-Money-Management-strategy.md) | support_resistance | swing | 1d | generic | long_short | SL/TP/- | low | 10 |  | pine |
+| [Triple-Indicators-Sentiment-Driven-Breakout-Strategy](../../strategies/Triple-Indicators-Sentiment-Driven-Breakout-Strategy.md) | breakout | intraday | 1h | generic | long_short | SL/TP/- | low | 10 | EMA, SMA, WMA, HMA, DEMA/TEMA, JMA, LSMA/LinReg, RSI… | pine |
+| [ZeroLag-MACD-Long-Short-Strategy](../../strategies/ZeroLag-MACD-Long-Short-Strategy.md) | momentum | intraday | 1h | crypto | long_short | SL/-/- | low | 10 | EMA, SMA, MACD, RSI, Bollinger Bands, Volume | pine |
+| [Candlestick-Emotion-Momentum-Trend-Trading-Strategy-Based-on-Quantitative-Indicators](../../strategies/Candlestick-Emotion-Momentum-Trend-Trading-Strategy-Based-on-Quantitative-Indicators.md) | candlestick_pattern | swing | 1d | generic | long_short | -/TP/- | medium | 9 | SMA, Volume, Candlestick Patterns | pine |
+| [Combined-Momentum-SMA-Crossover-Strategy-with-Market-Sentiment-and-Resistance-Level-Optimi](../../strategies/Combined-Momentum-SMA-Crossover-Strategy-with-Market-Sentiment-and-Resistance-Level-Optimization-System.md) | momentum | position | 1d | commodities | long_only | SL/-/- | medium | 9 | SMA, MACD, RSI, Highest/Lowest (channel) | pine |
+| [Dynamic-SMA-Cross-Trend-Strategy](../../strategies/Dynamic-SMA-Cross-Trend-Strategy.md) | trend_following | swing | 3h | crypto | long_only | -/-/- | high | 9 | SMA, LSMA/LinReg, ATR | pine |
+| [Linear-MACD-Unlocking-the-Magic-of-Linear-Regression-in-TradingView](../../strategies/Linear-MACD-Unlocking-the-Magic-of-Linear-Regression-in-TradingView.md) | momentum | scalping | 1m | generic | long_short | SL/-/- | high | 9 | EMA, SMA, VWMA, LSMA/LinReg, MACD, OBV, Volume | pine |
+| [Momentum-Market-Sentiment-Indicator-Strategy](../../strategies/Momentum-Market-Sentiment-Indicator-Strategy.md) | momentum | intraday | 1h | generic | long_only | -/-/- | high | 9 | EMA, MACD, Volume | pine |
+| [Moving-Average-and-RSI-Comprehensive-Trading-Strategy](../../strategies/Moving-Average-and-RSI-Comprehensive-Trading-Strategy.md) | mean_reversion | intraday | 1d | generic | long_short | -/-/- | high | 9 | SMA, RSI | pine |
+| [OBV-CMO-and-Coppock-Curve-Based-Trading-Strategy](../../strategies/OBV-CMO-and-Coppock-Curve-Based-Trading-Strategy.md) | momentum | position | 1d | generic | long_only | -/-/- | high | 9 | WMA, OBV, Momentum/ROC, CMO, Coppock, Volume | pine |
+| [Williams-Accumulation-Distribution-Williams-AD-Strategy](../../strategies/Williams-Accumulation-Distribution-Williams-AD-Strategy.md) | statistical | intraday | 1h | generic | long_short | -/-/- | high | 9 | Williams %R, Volume | pine |
+| [Ichimoku-Cloud-and-Moving-Average-Strategy](../../strategies/Ichimoku-Cloud-and-Moving-Average-Strategy.md) | trend_following | intraday | 1h | generic | long_short | -/-/- | high | 8 | SMA, Ichimoku | pine |
+| [Multi-Indicator-Dynamic-Position-Size-Volatility-Adaptive-Quantitative-Trading-Strategy](../../strategies/Multi-Indicator-Dynamic-Position-Size-Volatility-Adaptive-Quantitative-Trading-Strategy.md) | trend_following | swing | 1d | generic | long_short | -/-/- | medium | 8 | EMA, SMA, MACD, RSI, Stochastic, StochRSI, ATR, Ichimoku… | pine |

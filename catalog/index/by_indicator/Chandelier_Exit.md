@@ -1,0 +1,21 @@
+# Indicator: Chandelier Exit
+
+13 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [ATR-Chandelier-Exit-Strategy-with-Relative-Strength-Index](../../strategies/ATR-Chandelier-Exit-Strategy-with-Relative-Strength-Index.md) | momentum | position | 1m | generic | long_short | SL/TP/TR | low | 10 | RSI / ATR / Highest/Lowest (channel) / Chandelier Exit | pine |
+| [Chandelier-Exit-Strategy](../../strategies/Chandelier-Exit-Strategy.md) | breakout | intraday | 10m | generic | long_only | SL/-/TR | medium | 10 | ATR / Highest/Lowest (channel) / Chandelier Exit | pine |
+| [ChandelierExit-EMA-Dynamic-Stop-Loss-Trend-Following-Strategy](../../strategies/ChandelierExit-EMA-Dynamic-Stop-Loss-Trend-Following-Strategy.md) | trend_following | position | 1d | generic | long_short | SL/-/TR | low | 10 | EMA / ATR / Highest/Lowest (channel) / Chandelier Exit | pine |
+| [Doji-Candlestick-Reversal-Trading-Strategy](../../strategies/Doji-Candlestick-Reversal-Trading-Strategy.md) | candlestick_pattern | intraday | 1d | generic | long_short | -/-/TR | high | 10 | SMA / Chandelier Exit / Candlestick Patterns | pine |
+| [Dynamic-Stop-Loss-Moving-Average-Strategy](../../strategies/Dynamic-Stop-Loss-Moving-Average-Strategy.md) | moving_average | intraday | 1h | generic | long_short | SL/TP/TR | low | 10 | ATR / Highest/Lowest (channel) / Chandelier Exit | pine |
+| [EMA-Oscillation-Reversal-System-Strategy](../../strategies/EMA-Oscillation-Reversal-System-Strategy.md) | mean_reversion | swing | 1d | generic | long_short | SL/-/TR | medium | 10 | EMA / SMA / ATR / Bollinger Bands / Momentum/ROC / Aroon / Std Dev / Z-Score / H | pine |
+| [Isolation-Band-Oscillation-Tracking-Strategy](../../strategies/Isolation-Band-Oscillation-Tracking-Strategy.md) | mean_reversion | intraday | 1h | generic | long_short | SL/TP/TR | low | 10 | ATR / Highest/Lowest (channel) / Chandelier Exit | pine |
+| [Multi-indicator-Quant-Trading-Strategy](../../strategies/Multi-indicator-Quant-Trading-Strategy.md) | trend_following | intraday | 1h | generic | long_short | SL/TP/TR | low | 10 | EMA / SMA / VWMA / LSMA/LinReg / RSI / ATR / Parabolic SAR / Heikin Ashi / Highe | pine |
+| [Multi-Indicator-Synergistic-Trend-Following-Strategy-with-Dynamic-Stop-Loss-System](../../strategies/Multi-Indicator-Synergistic-Trend-Following-Strategy-with-Dynamic-Stop-Loss-System.md) | trend_following | intraday | 2h | generic | long_short | SL/-/TR | medium | 10 | EMA / ATR / Highest/Lowest (channel) / Volume / Chandelier Exit | pine |
+| [Multi-Technical-Indicator-Gold-Real-Time-Movement-Detection-and-Risk-Management-Strategy](../../strategies/Multi-Technical-Indicator-Gold-Real-Time-Movement-Detection-and-Risk-Management-Strategy.md) | candlestick_pattern | intraday | 1m | commodities | long_short | SL/TP/TR | low | 10 | EMA / SMA / WMA / HMA / VWMA / MACD / Stochastic / ATR / Supertrend / Heikin Ash | pine |
+| [Single-Exponential-Smoothed-Moving-Average-with-Trailing-Stop-Loss-Trend-Following-Strateg](../../strategies/Single-Exponential-Smoothed-Moving-Average-with-Trailing-Stop-Loss-Trend-Following-Strategy.md) | trend_following | intraday | 10m | generic | long_short | SL/-/TR | low | 10 | EMA / LSMA/LinReg / ATR / Highest/Lowest (channel) / Chandelier Exit | pine |
+| [Zero-Lag-Overlapping-Moving-Average-with-Chandelier-Exit-Trading-Strategy](../../strategies/Zero-Lag-Overlapping-Moving-Average-with-Chandelier-Exit-Trading-Strategy.md) | moving_average | scalping | 3m | generic | long_short | SL/TP/TR | medium | 10 | LSMA/LinReg / ATR / Highest/Lowest (channel) / Chandelier Exit | pine |
+| [ZLSMA-Enhanced-Chandelier-Exit-Strategy-with-Volume-Spike-Detection](../../strategies/ZLSMA-Enhanced-Chandelier-Exit-Strategy-with-Volume-Spike-Detection.md) | volume | intraday | 1h | generic | long_short | SL/-/TR | medium | 10 | SMA / LSMA/LinReg / ATR / Highest/Lowest (channel) / Volume / Chandelier Exit | pine |

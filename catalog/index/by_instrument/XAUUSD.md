@@ -1,0 +1,26 @@
+# Instrument: XAUUSD
+
+18 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Adaptive-Risk-Strategy-with-Dual-EMA-Crossover-and-ADX-Momentum-Filter](../../strategies/Adaptive-Risk-Strategy-with-Dual-EMA-Crossover-and-ADX-Momentum-Filter.md) | trend_following | intraday | 15m | commodities | long_short | SL/TP/- | low | 10 | EMA, ADX/DMI, ATR, Highest/Lowest (channel) | pine |
+| [Advanced-Quantitative-Trading-Strategy-Automated-Execution-System-Based-on-Intraday-Moment](../../strategies/Advanced-Quantitative-Trading-Strategy-Automated-Execution-System-Based-on-Intraday-Momentum-and-Risk-Management.md) | momentum | intraday | 1h | commodities | long_short | SL/TP/- | low | 10 | Candlestick Patterns, Session/Time | pine |
+| [Dual-EMA-Volatility-Adaptive-Trading-Strategy-with-Multi-Tiered-Profit-Optimization-System](../../strategies/Dual-EMA-Volatility-Adaptive-Trading-Strategy-with-Multi-Tiered-Profit-Optimization-System.md) | scalping | intraday | 1d | commodities | long_short | SL/TP/- | low | 10 | EMA, RSI, ATR | pine |
+| [Dynamic-Multi-SMA-and-MACD-based-XAUUSD-Trading-Strategy](../../strategies/Dynamic-Multi-SMA-and-MACD-based-XAUUSD-Trading-Strategy.md) | momentum | intraday | 1h | commodities | long_short | SL/TP/- | low | 10 | SMA, MACD, ATR | pine |
+| [Gold-Cross-Dead-Cross-Quantitative-Trading-Strategy](../../strategies/Gold-Cross-Dead-Cross-Quantitative-Trading-Strategy.md) | trend_following | intraday | 1h | commodities | long_short | SL/TP/- | low | 10 | SMA | pine |
+| [Gold-Fast-Breakthrough-EMA-Trading-Strategy](../../strategies/Gold-Fast-Breakthrough-EMA-Trading-Strategy.md) | breakout | scalping | 1h | commodities | long_short | SL/TP/TR | medium | 10 | EMA, ATR, Highest/Lowest (channel) | pine |
+| [Gold-Price-Action-Trading-Algorithm](../../strategies/Gold-Price-Action-Trading-Algorithm.md) | support_resistance | swing | 1d | commodities | long_short | SL/TP/- | low | 10 | Highest/Lowest (channel) | pine |
+| [Gold-Standard-Quantitative-Trading-Strategy](../../strategies/Gold-Standard-Quantitative-Trading-Strategy.md) | trend_following | scalping | 1m | commodities | long_short | SL/TP/- | medium | 10 | SMA | pine |
+| [Momentum-Breakout-Strategy-with-ADX-Filter](../../strategies/Momentum-Breakout-Strategy-with-ADX-Filter.md) | trend_following | scalping | 5m | commodities | long_only | SL/TP/- | medium | 10 | EMA, SMA, ADX/DMI, Bollinger Bands, Std Dev / Z-Score | pine |
+| [Moving-Average-Crossover-Gold-Strategy](../../strategies/Moving-Average-Crossover-Gold-Strategy.md) | trend_following | swing | 1d | commodities | long_short | SL/TP/- | low | 10 | EMA, SMA | pine |
+| [Moving-Average-Crossover-Gold-Trading-Strategy](../../strategies/Moving-Average-Crossover-Gold-Trading-Strategy.md) | trend_following | intraday | 1m | commodities | long_short | SL/TP/- | low | 10 | SMA | pine |
+| [MTDAT-Multi-Technical-Indicator-Dynamic-Adaptive-Trading-Strategy-MTDAT](../../strategies/MTDAT-Multi-Technical-Indicator-Dynamic-Adaptive-Trading-Strategy-MTDAT.md) | mean_reversion | intraday | 10m | commodities | long_short | SL/TP/- | low | 10 | SMA, MACD, RSI, ATR, Bollinger Bands, Std Dev / Z-Score | pine |
+| [Multi-Indicator-Cross-Momentum-Trading-Strategy-EMA-Trend-with-RSI-Overbought-Oversold-Bre](../../strategies/Multi-Indicator-Cross-Momentum-Trading-Strategy-EMA-Trend-with-RSI-Overbought-Oversold-Breakout-System.md) | mean_reversion | position | 1d | commodities | long_short | SL/TP/- | low | 10 | EMA, RSI, Bollinger Bands | pine |
+| [Multi-Timeframe-Momentum-Confluence-Automated-Trading-Strategy](../../strategies/Multi-Timeframe-Momentum-Confluence-Automated-Trading-Strategy.md) | momentum | scalping | 1m | commodities | long_short | SL/TP/- | medium | 10 | EMA, SMA, WMA, VWMA, RSI, Pivot Points, Choppiness Index… | pine |
+| [RSI-Relative-Strength-Index-Strategy](../../strategies/RSI-Relative-Strength-Index-Strategy.md) | momentum | intraday | 1h | commodities | long_short | SL/-/TR | low | 10 | RSI | pine |
+| [XAUUSD-Scalper-1m-XAUUSD-1-Minute-Scalping-Strategy](../../strategies/XAUUSD-Scalper-1m-XAUUSD-1-Minute-Scalping-Strategy.md) | scalping | scalping | 1m | commodities | long_short | SL/TP/- | low | 10 | EMA, ATR | pine |
+| [Combined-Momentum-SMA-Crossover-Strategy-with-Market-Sentiment-and-Resistance-Level-Optimi](../../strategies/Combined-Momentum-SMA-Crossover-Strategy-with-Market-Sentiment-and-Resistance-Level-Optimization-System.md) | momentum | position | 1d | commodities | long_only | SL/-/- | medium | 9 | SMA, MACD, RSI, Highest/Lowest (channel) | pine |
+| [Multi-Period-Technical-Analysis-and-Market-Sentiment-Trading-Strategy](../../strategies/Multi-Period-Technical-Analysis-and-Market-Sentiment-Trading-Strategy.md) | news_sentiment | intraday | 1d | commodities | long_only | -/-/- | high | 8 | SMA, MACD, RSI, Highest/Lowest (channel), Session/Time | pine |

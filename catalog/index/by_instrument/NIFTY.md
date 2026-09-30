@@ -1,0 +1,33 @@
+# Instrument: NIFTY
+
+25 strategies. Sorted by buildability score (desc), then name.
+
+[← Back to catalog index](../../INDEX.md)
+
+| Strategy | Family | Style | TF | Asset | Dir | SL/TP/Trail | Risk | Build | Indicators | Lang |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [Advanced-Multi-Indicator-Trend-Following-and-Momentum-Quantitative-Trading-Strategy](../../strategies/Advanced-Multi-Indicator-Trend-Following-and-Momentum-Quantitative-Trading-Strategy.md) | trend_following | scalping | 1m | indices | long_short | SL/TP/- | medium | 10 | EMA, MACD, RSI, Stochastic, StochRSI, ADX/DMI, ATR… | pine |
+| [DMI-Moving-Average-Trading-Strategy](../../strategies/DMI-Moving-Average-Trading-Strategy.md) | trend_following | scalping | 1m | indices | long_short | SL/-/- | high | 10 | ADX/DMI | pine |
+| [Dual-Moving-Average-Bollinger-Band-MACD-Trading-Strategy](../../strategies/Dual-Moving-Average-Bollinger-Band-MACD-Trading-Strategy.md) | mean_reversion | scalping | 5m | indices | long_short | SL/TP/- | medium | 10 | SMA, MACD, Bollinger Bands, Std Dev / Z-Score | pine |
+| [Dynamic-Trend-Following-SuperTrend-Triple-Enhancement-Strategy](../../strategies/Dynamic-Trend-Following-SuperTrend-Triple-Enhancement-Strategy.md) | trend_following | swing | 1d | indices | long_short | SL/-/TR | low | 10 | EMA, ATR, Supertrend | pine |
+| [EMA-and-Bollinger-Bands-Breakout-Strategy](../../strategies/EMA-and-Bollinger-Bands-Breakout-Strategy.md) | mean_reversion | intraday | 1h | indices | long_short | SL/TP/- | low | 10 | EMA, SMA, Bollinger Bands, Std Dev / Z-Score | pine |
+| [High-Frequency-Dynamic-Multi-Indicator-Moving-Average-Crossover-Strategy](../../strategies/High-Frequency-Dynamic-Multi-Indicator-Moving-Average-Crossover-Strategy.md) | trend_following | hft | 5m | indices | long_short | SL/TP/- | medium | 10 | EMA, SMA, RSI, ATR, VWAP, Volume | pine |
+| [Intraday-Single-Candle-Indicator-Combo-Short-Term-Trading-Strategy](../../strategies/Intraday-Single-Candle-Indicator-Combo-Short-Term-Trading-Strategy.md) | mean_reversion | hft | 5m | indices | long_short | SL/-/- | medium | 10 | EMA, SMA, MACD, RSI, Stochastic, ADX/DMI, Bollinger Bands | pine |
+| [Moving-Average-Breakout-Trading-Strategy](../../strategies/Moving-Average-Breakout-Trading-Strategy.md) | breakout | intraday | 1h | stocks | long_short | SL/TP/- | low | 10 | SMA | pine |
+| [Multi-Indicator-ATR-Trailing-Stop-Smart-Trading-Strategy](../../strategies/Multi-Indicator-ATR-Trailing-Stop-Smart-Trading-Strategy.md) | machine_learning | scalping | 3m | indices | long_short | SL/TP/TR | medium | 10 | EMA, SMA, VWMA, ATR, Volume | pine |
+| [Multi-Indicator-Comprehensive-Momentum-Trading-Strategy](../../strategies/Multi-Indicator-Comprehensive-Momentum-Trading-Strategy.md) | momentum | intraday | 1d | indices | long_short | SL/TP/- | low | 10 | EMA, MACD, RSI, ATR | pine |
+| [Multi-Indicator-Trend-Following-Strategy-with-Bollinger-Bands-and-ATR-Dynamic-Stop-Loss](../../strategies/Multi-Indicator-Trend-Following-Strategy-with-Bollinger-Bands-and-ATR-Dynamic-Stop-Loss.md) | trend_following | swing | 1d | indices | long_short | SL/-/TR | medium | 10 | SMA, MACD, ADX/DMI, ATR, Bollinger Bands, Supertrend… | pine |
+| [Multi-Indicator-Trend-Reversal-Volatility-Conditional-Selective-Options-Selling-Strategy](../../strategies/Multi-Indicator-Trend-Reversal-Volatility-Conditional-Selective-Options-Selling-Strategy.md) | mean_reversion | intraday | 1h | indices | long_short | SL/TP/- | low | 10 | EMA, SMA, RSI, ADX/DMI, ATR, Bollinger Bands, Supertrend… | pine |
+| [Multi-Timeframe-Momentum-Breakout-Strategy](../../strategies/Multi-Timeframe-Momentum-Breakout-Strategy.md) | breakout | intraday | 1d | commodities | long_short | SL/TP/- | low | 10 | EMA, WMA, RSI, ADX/DMI, ATR, Pivot Points, Fibonacci… | pine |
+| [Nifty-50-3-Minute-Opening-Range-Breakout-Strategy](../../strategies/Nifty-50-3-Minute-Opening-Range-Breakout-Strategy.md) | breakout | scalping | 3m | indices | long_short | SL/TP/- | medium | 10 | Session/Time | pine |
+| [SAR-Momentum-Reversal-Tracking-Strategy](../../strategies/SAR-Momentum-Reversal-Tracking-Strategy.md) | trend_following | intraday | 30m | indices | long_short | SL/-/- | medium | 10 | Parabolic SAR | pine |
+| [Adaptive-Multi-Indicator-Strategy-Combining-Trend-Following-and-Range-Trading](../../strategies/Adaptive-Multi-Indicator-Strategy-Combining-Trend-Following-and-Range-Trading.md) | trend_following | intraday | 1h | indices | long_short | SL/-/- | medium | 9 | EMA, SMA, RSI, ADX/DMI, ATR, Bollinger Bands, Supertrend… | pine |
+| [Dynamic-Trend-Following-Strategy-Based-on-Relative-Strength-and-RSI](../../strategies/Dynamic-Trend-Following-Strategy-Based-on-Relative-Strength-and-RSI.md) | trend_following | intraday | 15m | indices | long_only | SL/-/- | medium | 9 | RSI, ATR, Supertrend, Highest/Lowest (channel) | pine |
+| [MORNING-CANDLE-BREAKOUT-AND-REVERSION-STRATEGY](../../strategies/MORNING-CANDLE-BREAKOUT-AND-REVERSION-STRATEGY.md) | breakout | intraday | 1h | indices | long_short | SL/-/- | medium | 9 | Session/Time | pine |
+| [Nifty-50-Quantitative-Trading-Strategy-Based-on-Dynamic-Position-Adjustment-with-Support-a](../../strategies/Nifty-50-Quantitative-Trading-Strategy-Based-on-Dynamic-Position-Adjustment-with-Support-and-Resistance-Levels.md) | support_resistance | hft | 1h | indices | long_short | -/-/- | very_high | 9 | SMA, Open Interest | pine |
+| [Nifty-Trading-Strategy-Based-on-RSI-Indicator](../../strategies/Nifty-Trading-Strategy-Based-on-RSI-Indicator.md) | mean_reversion | position | 1d | indices | long_only | -/-/- | high | 9 | RSI | pine |
+| [RSI-Breakout-Strategy](../../strategies/RSI-Breakout-Strategy.md) | breakout | intraday | 1h | indices | long_short | SL/-/- | medium | 9 | VWMA, RSI, Highest/Lowest (channel), Session/Time | pine |
+| [T7-JNSAR-Quantitative-Trading-Strategy](../../strategies/T7-JNSAR-Quantitative-Trading-Strategy.md) | trend_following | swing | 1d | indices | long_short | -/-/- | high | 9 | EMA | pine |
+| [Configurable-Moving-Average-Crossover-Strategy](../../strategies/Configurable-Moving-Average-Crossover-Strategy.md) | trend_following | position | 2d | indices | long_short | -/-/- | high | 8 | EMA, SMA, WMA, HMA | pine |
+| [Dynamic-Support-Resistance-Breakout-Moving-Average-Crossover-Strategy](../../strategies/Dynamic-Support-Resistance-Breakout-Moving-Average-Crossover-Strategy.md) | support_resistance | intraday | 1d | indices | long_short | -/-/- | medium | 8 | SMA, Highest/Lowest (channel) | pine |
+| [Dynamic-Timeframe-High-Low-Breakout-Strategy](../../strategies/Dynamic-Timeframe-High-Low-Breakout-Strategy.md) | breakout | swing | 1d | indices | long_short | -/-/- | medium | 8 |  | pine |
