@@ -43,7 +43,7 @@ The biggest strength of this strategy is the ability to adapt to different marke
 
 2. Flags catch trends
 
-   With flags, the strategy can effectively determine trend persistency and avoid false signals. This allows it to identify trend opportunities early on and excell at trend following.
+   With flags, the strategy can effectively determine trend persistency and avoid false signals. This allows it to identify trend opportunities early on and excel at trend following.
 
 3. Highly customizable  
 
