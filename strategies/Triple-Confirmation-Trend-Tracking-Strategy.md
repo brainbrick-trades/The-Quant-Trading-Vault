@@ -37,7 +37,7 @@ Only when signs of all three indicators line up, the strategy will go long. When
 
 ### High Probability with Multi-dimensional Assessment 
 
-The combinted signals of Moving Average, Heiken Ashi and Supertren from different dimensions ensure high-probability entry.
+The combined signals of Moving Average, Heiken Ashi and Supertren from different dimensions ensure high-probability entry.
 
 ### Promptly Reacts and Tracks in Real Time  
 
