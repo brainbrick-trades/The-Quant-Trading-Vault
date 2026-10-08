@@ -19,7 +19,7 @@ This strategy identifies support and resistance levels by tracking the consecuti
 
 1. S/R identification  
     - When the close price is higher than the close of 4 days ago for 4 consecutive days, mark the point as a downside support  
-    - When the close price is lower than the close of 4 days ago for 4 consecutive days, mark the point as a upside resistance
+    - When the close price is lower than the close of 4 days ago for 4 consecutive days, mark the point as an upside resistance
 2. Signal generation 
     - After identifying a support level, if the up bar count reaches the threshold (default 9 days), generate long signal
     - After identifying a resistance level, if the down bar count reaches the threshold (default 9 days), generate short signal  
